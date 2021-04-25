@@ -19,6 +19,16 @@ body {
 header h1 {
     font-size: 150%;
 }
+.position_header_title {
+    background-color: maroon;
+    padding: 12px 12px 12px 18px;
+    margin: 15px 0px 10px 0px; 
+    border: 1px solid black;
+    height: 23px;
+    width: 320px;
+    text-align: left;
+    font-size: 75%;
+}
 
 /* navigation and menu styling */
 nav {
@@ -50,12 +60,20 @@ nav ul li:hover {
 
 @media screen and (min-width: 1025px){
 
+    .position_header_title {
+        background-color: maroon;
+        padding: 15px;
+        width: 1520px;
+        text-align: center;
+
+    }
+
     header h1 {
         font-size: 240%;
         padding-top: 0;
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 0; /* added 10:50am 25th Apr*/
+        padding-bottom: 0; 
         letter-spacing: 2px;
     }
 
