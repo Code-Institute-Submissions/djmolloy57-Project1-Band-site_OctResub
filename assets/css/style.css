@@ -47,3 +47,46 @@ nav li > a{
 nav ul li:hover {
     background-color: black;
 }
+
+@media screen and (min-width: 1025px){
+
+    header h1 {
+        font-size: 240%;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0; /* added 10:50am 25th Apr*/
+        letter-spacing: 2px;
+    }
+
+    nav {
+          height: 55px;
+          background-color: var(--black);
+          width: 1535px; 
+    }
+    nav ul {
+      max-width: 1450px; 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 0px -10px 0px -10px;
+      text-align: right;
+      width: 1535px;
+      display: inline-block;
+    }
+    nav ul > li {
+          display: inline-block;
+          text-align: center;
+          margin-right: 5px;
+          width: 120px;
+          height: 8px;
+          padding-top: 5px;
+          padding-bottom: 21px;
+    }
+    nav li > a {
+          font-size: 79%;
+          padding: auto;
+          margin-bottom: 5px;
+          height: 40px;
+          letter-spacing: 2px;
+    }
+}
