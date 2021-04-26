@@ -96,6 +96,39 @@ img{
 .band_pic {
     padding-left: 35px;
 }
+#video-list {
+    text-align: center;
+    margin-top: 10px;
+}
+iframe {
+    border: 1px solid red;
+    font-size: 70%;
+    width: 270px;
+    height: 200px;
+}
+.position-videolist
+{
+    padding-left: 15px;
+}
+.item-video{
+    padding: 1%; 
+}
+.ToFindOut{
+    padding-left: 20px;
+}
+.ToFindOut > p {
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 60%;
+    text-align: left;
+    margin-left: 2px;
+}
+.ToFindOut a:link {
+  color: maroon;
+}
+.ToFindOut a:visited {
+  color: maroon;
+}
 
 @media screen and (min-width: 1025px){
 
@@ -185,4 +218,20 @@ img{
         padding-right: 150px;
         margin-top: 55px;
     }
+    iframe {
+       width: 400px;
+   }
+   .position-videolist
+   {
+       padding-left: 220px;
+       padding-right: 220px;
+   }
+   .item-video{
+       display: inline;
+   }
+
+   .ToFindOut p {
+     padding-left: 330px;
+     font-size: 100%;
+   }
 }
