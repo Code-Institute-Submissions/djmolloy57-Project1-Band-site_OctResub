@@ -15,6 +15,7 @@ body {
     --white: #fff;
     --maroon: maroon;
     --black: black;
+    --red: red;
 }
 header h1 {
     font-size: 150%;
@@ -46,7 +47,7 @@ nav li {
     color: var(--white);
     padding: 14px; 
     text-align:  center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--black);
     transition: background-color 0.2s;
 }
 nav li > a{ 
@@ -101,7 +102,7 @@ img{
     margin-top: 10px;
 }
 iframe {
-    border: 1px solid red;
+    border: 1px solid var(--red);
     font-size: 70%;
     width: 270px;
     height: 200px;
@@ -124,10 +125,28 @@ iframe {
     margin-left: 2px;
 }
 .ToFindOut a:link {
-  color: maroon;
+  color: var(--maroon);
 }
 .ToFindOut a:visited {
-  color: maroon;
+  color: var(--maroon);
+}
+footer{
+    height: 150px;
+    padding-top: 20px;
+}
+footer ul{
+    text-align: center;
+}
+footer ul > li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 150%;
+}
+footer ul >li i{
+    font-size: 100%;
+    margin: 10%;
+    padding: 20%;
+    color: var(--black);
 }
 
 @media screen and (min-width: 1025px){
@@ -233,5 +252,18 @@ iframe {
    .ToFindOut p {
      padding-left: 330px;
      font-size: 100%;
+   }
+    footer{
+       clear: both;
+   }
+   footer ul > li{
+       display: inline-block;
+       margin-right: 50px;
+   }
+   footer ul >li i{
+       font-size: 120%;
+   }
+   iframe {
+       width: 400px;
    }
 }
