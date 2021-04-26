@@ -174,6 +174,47 @@ footer ul >li i{
     font-size: 90%;
 
 }
+.review_container_pos{
+    padding-left: 25px;
+    overflow: auto;
+    height: 300px;
+    width: 250px;
+}
+
+.test_title{
+    background-color: var(--maroon);
+    color: var(--white);
+    font-size: 90%;
+    max-width: 1020px;
+    margin-left: 25px;
+    padding-left: 5px;
+    width: 265px;
+    height: 20%;
+    margin-top: 5px;
+}
+.test_title h3{
+    font-size: 90%;
+}
+
+.user_review {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user_review > p{
+    font-style: italic;
+    overflow-wrap: break-word;
+    font-size: 80%;
+}
+.user_review footer {
+    font-size: 80%;
+    padding: 0; 
+}
+
+.user_review footer > p span {
+    font-weight: bold;
+}
 
 @media screen and (min-width: 1025px){
 
@@ -182,6 +223,8 @@ footer ul >li i{
         padding: 15px;
         width: 1520px;
         text-align: center;
+        
+        padding-top: 8px;
 
     }
 
@@ -192,6 +235,9 @@ footer ul >li i{
         margin-bottom: 0;
         padding-bottom: 0; 
         letter-spacing: 2px;
+
+        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     nav {
@@ -300,7 +346,6 @@ footer ul >li i{
        margin-top: 15px;
    }
    .star-section h5{
-       /*color: #fff;*/
        margin-top: 15px;
    }
    .star-section ol{
@@ -311,5 +356,29 @@ footer ul >li i{
    }
    .star-section i{
        font-size: 90%;
+   }
+   .test_title{
+       padding-top: 10px;
+       padding-bottom: 0px;
+       width: 960px;
+       height: 25px;
+       padding-left: 20px;
+       margin-left: 270px;       
+   }
+   .review_container_pos{
+       float: left;
+       width: 590px;
+       padding-left: 270px;
+   }
+   .user_review {
+     padding: 0;
+   }
+   .user_review > p{
+     font-size: 90%;
+     overflow-wrap: break-word;
+   }
+   .user_review footer {
+     font-size: 90%;
+     padding: 0;
    }
 }
