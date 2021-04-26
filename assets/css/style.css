@@ -151,21 +151,29 @@ img{
         max-height: 190%;
         display: block;
     }
-      .bio {
+    .bio {
         float: left;
         width: 550px;
         margin-top: 55px;
         padding-left: 110px;
-    }
-    .bio > p {
-        font-size: 100%;
-        margin-bottom: 10px;
     }
     .bio h4{
         margin-bottom: 10px;
         font-size: 100%;
     } 
     
+    .bio p {
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+    .bio div p {
+        font-size: 100%;
+        
+    } 
+    .bio span{
+    font-size: 100%;
+
+    } 
     .band_pic{
         float: left;
         height: 600px;
