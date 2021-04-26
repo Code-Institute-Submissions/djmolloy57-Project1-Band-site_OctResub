@@ -215,11 +215,23 @@ footer ul >li i{
 .user_review footer > p span {
     font-weight: bold;
 }
+.testpic {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 15px; 
+    margin-left: 38px;
+    max-width: 180px;
+    max-height: 180px;
+    padding-bottom: 55px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
 
 @media screen and (min-width: 1025px){
 
     .position_header_title {
-        /*background-color: maroon;*/
         padding: 15px;
         width: 1520px;
         text-align: center;
@@ -380,5 +392,15 @@ footer ul >li i{
    .user_review footer {
      font-size: 90%;
      padding: 0;
+   }
+   .testpic{
+       width: 175px;
+       height: 175px;
+       float: left;
+       margin-top: 1px;
+       margin-bottom: 0px;
+       padding-top: 0px;
+       padding-left: 20px;
+       padding-bottom: 0px;
    }
 }
