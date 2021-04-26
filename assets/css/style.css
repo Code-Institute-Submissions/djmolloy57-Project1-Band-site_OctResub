@@ -148,6 +148,32 @@ footer ul >li i{
     padding: 20%;
     color: var(--black);
 }
+.star-wrapper-pos{ 
+    width: 170px; 
+    height: 90px; 
+    padding: 1px 50px 0 50px; 
+    background-color: var(--maroon);
+    max-width: 1020px;
+    margin: 0px auto; 
+    margin-top: 10px;
+ }
+ .star-section h5{
+    color: var(--white);
+    font-size: 60%;
+    margin-top: 12px; 
+    margin-bottom: 10px; 
+    margin-left: 1px; 
+}
+.star-section ol{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 70%;
+    margin-left: 2px; 
+}
+.star-section li{
+    font-size: 90%;
+
+}
 
 @media screen and (min-width: 1025px){
 
@@ -265,5 +291,25 @@ footer ul >li i{
    }
    iframe {
        width: 400px;
+   }
+    .star-wrapper-pos{
+       max-width: 1020px;
+       margin: 0px auto;
+       padding: 5px 20px;
+       width: 20%;
+       margin-top: 15px;
+   }
+   .star-section h5{
+       /*color: #fff;*/
+       margin-top: 15px;
+   }
+   .star-section ol{
+     font-size: 90%;
+   }
+   .star-section li{
+     font-size: 90%;
+   }
+   .star-section i{
+       font-size: 90%;
    }
 }
