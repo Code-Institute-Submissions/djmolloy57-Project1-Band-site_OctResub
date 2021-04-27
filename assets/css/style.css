@@ -370,7 +370,57 @@ form label {
     margin-top: -240px;
   }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .position_header_title {
+    padding: 0;
+    margin: 5px 0px 5px, 0px;
+    height: 30px;
+    width: 768px;
+    text-align: center;
+  }
+  menu_position-container {
+    height: 70px;
+    padding: 0px -14px 0px -14px;
+  }
+  header h1{
+      font-size: 200%;
+  }
+  nav {
+        height: 60px;
+        background-color: black;
+        text-align: left;
+        width: 768px;
+  }
+  nav ul {
+    background-color: black;
+    max-width: 1300px;
+    /*margin: 15px auto;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px -10px 0px -10px;
+    text-align: right;
+    width: 768px;
+    display: inline-block;
+  }
+  nav ul > li {
+        display: inline-block;
+        border-left: 1px solid white;
+        text-align: center;
+        background-color: maroon;
+        margin-right: 5px;
+        width: 75px;
+        height: 15px;
+        padding-top: 8px;
+  }
+  nav li > a {
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 60%;
+  }
+  .burger_menu{
+    display: none;
+  }
+}
 
 @media screen and (min-width: 1025px){
 
