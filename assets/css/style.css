@@ -519,6 +519,27 @@ form label {
         padding-bottom: 0px;
     }
 
+    .pos-bookingform {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        width: 300px;
+        height: 350px;
+        padding-left: 10px;
+        padding-top: 10px;
+        float: left;
+   }
+    .basepic{
+        width: 430px;
+        height: 430px;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-left: 94px;
+        padding-bottom: 0px;
+    }
+
     footer{
         clear: both;
         padding-top: 1px;
@@ -531,6 +552,7 @@ form label {
    footer ul >li i{
         font-size: 100%;
    }
+   
 
 }
 
