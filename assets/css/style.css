@@ -41,6 +41,7 @@ nav ul {
     list-style-type: none;
     text-align: center;
     text-decoration: none;
+    display: none;
 }
 nav li { 
     background-color: var(--maroon);
@@ -58,6 +59,26 @@ nav li > a{
 nav ul li:hover {
     background-color: var(--black);
 }
+
+.burger_menu {
+    position: absolute;
+    margin: 0px 10px 35px 35px;
+    font-size: 25px;
+    display: block;
+    float: right;
+    cursor: pointer;
+    top: 20px;
+    right: 0;
+    color: var(--white);
+}
+
+#toggle:checked + #menu {
+    display: block;
+}
+#toggle {
+    display: none;
+}
+
 
 img{
     max-width: 100%;
@@ -387,6 +408,10 @@ form label {
           height: 40px;
           letter-spacing: 2px;
     }
+    .burger_menu{
+        display: none;
+    }
+
     img{
         max-width: 190%;
         max-height: 190%;
