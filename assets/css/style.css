@@ -457,8 +457,7 @@ form label {
    .gig-wrapper h3{
         font-size: 80%;
         padding-bottom: 0;
-        margin-bottom: 0;
-     
+        margin-bottom: 0;  
    }
    .gig {
         margin-bottom: 20px; 
@@ -480,24 +479,58 @@ form label {
         padding-left: 40px;
         padding-bottom: 20px;
     }
-  .ToFindOut p {
+   .ToFindOut p {
         padding-left: 70px;
         font-size: 70%;
+    }
+   .star-wrapper-pos{
+        margin-top: 50px;
+        margin-left: 70px;
+   }
+   .star-section h5{
+        font-size: 70%;
+   }
+   .star-section ol{
+        font-size: 70%;
+   }
+   .test_title {
+        margin-left: 70px;
+        width: 630px;
+  }
+   .review_container_pos{
+        float: left;
+        padding-left: 10px;
+        margin-left: 70px;
+        width: 370px;
+        overflow: scrollbar;
+        margin-bottom: 20px;
+    }
+   .user_review{
+        margin-left: 2px;
+   }
+     .testpic{
+        width: 330px;
+        height: 330px;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
     }
 
     footer{
         clear: both;
         padding-top: 1px;
         margin-top: 1px;
-  }
-  footer ul > li{
+   }
+   footer ul > li{
         display: inline-block;
         margin-right: 50px;
-  }
-  footer ul >li i{
+   }
+   footer ul >li i{
         font-size: 100%;
-  }
-
+   }
 
 }
 
