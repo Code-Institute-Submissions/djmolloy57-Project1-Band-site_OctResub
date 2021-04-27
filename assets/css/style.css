@@ -227,6 +227,61 @@ footer ul >li i{
     padding-left: 25px;
     margin-top: 10px;
 }
+.pos-bookingform {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: var(--white);
+    background-color: rgba(60, 60, 70, 0.6);
+    width: 250px;
+    height: 310px;
+    padding: 20px;
+    border: 3px solid var(-maroon);
+}
+
+input[type=text],input[type=email],input[type=date],textarea{
+  background: transparent;
+  color: var(--white);
+  width: 140px;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid var(--white);
+  border-radius: 2px;
+
+}
+.form_textarea > textarea {
+  height: 55px;
+}
+input[type=submit] {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: var(--maroon);
+    color: var(--white);
+    display: block;
+    font-size: 80%;
+    cursor: pointer;
+}
+form label {
+    font-size: 70%;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+.form_fullname > label{
+  padding-right: 35px;
+}
+.form_email > label {
+  padding-right: 58px;
+}
+.form_date > label{
+  padding-right: 5px;
+}
+.form_textarea > textarea {
+  margin-left: 90px;
+  height: 35px;
+}
 
 
 @media screen and (min-width: 1025px){
@@ -234,10 +289,8 @@ footer ul >li i{
     .position_header_title {
         padding: 15px;
         width: 1520px;
-        text-align: center;
-        
+        text-align: center;       
         padding-top: 8px;
-
     }
 
     header h1 {
@@ -402,5 +455,40 @@ footer ul >li i{
        padding-top: 0px;
        padding-left: 20px;
        padding-bottom: 0px;
+   }
+      .pos-bookingform {
+       margin-top: 20px;
+       margin-bottom: 20px;
+       margin-left: 350px;
+       width: 380px;
+       height: 400px;
+       padding: 20px;
+       padding-top: 40px;
+       float: left;
+   }
+   input[type=text],input[type=email],input[type=date],textarea{
+     background: transparent;
+     width: 50%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+   }
+   .pos-bookingform h3 {
+     padding-bottom: 30px;
+   }
+   form label {
+       font-size: 90%;
+   }
+   .form_fullname > label{
+     padding-right: 50px;
+   }
+   .form_email > label {
+     padding-right: 80px;
+   }
+   .form_date > label{
+     padding-right: 10px;
+   }
+   .form_textarea > textarea {
+     margin-left: 120px;
+     height: 65px;
    }
 }
