@@ -303,6 +303,21 @@ form label {
   margin-left: 90px;
   height: 35px;
 }
+
+.basepic { 
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 15px; 
+    margin-left: 38px;
+    max-width: 180px;
+    max-height: 180px;
+    padding-bottom: 55px;
+}
+.basepic { 
+   padding-left: 25px;
+}
+
 .gig-wrapper {
     padding-top: 10px;
     padding-left: 40px;
@@ -568,6 +583,18 @@ form label {
      margin-left: 120px;
      height: 65px;
    }
+   .basepic{
+       width: 175px;
+       height: 175px;
+       float: left;
+       margin-top: 10px;
+       margin-bottom: 0px;
+       padding-top: 10px;
+       padding-left: 80px;
+       padding-bottom: 0px;
+       margin-left: 80px;
+   }
+
    .gig-wrapper{
        padding-top: 1px;
        padding-left: 300px;
