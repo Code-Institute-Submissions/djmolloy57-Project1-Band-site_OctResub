@@ -1,4 +1,7 @@
 /*Mobile first and then use Media Query for larger screens like tablet and desktops */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 *{ 
     padding: 0px;
     margin: 0px;
@@ -94,8 +97,9 @@ img{
     margin-left: 40px;
 }
 .bio h4{
-        font-size: 70%;
+        font-size: 75%;
         margin-bottom: 10px;
+        font-family: Abril;
 } 
 .bio p {
     font-size: 60%;
@@ -449,7 +453,7 @@ form label {
         margin-top: 0px;
    }
    .bio h4{
-        font-size: 80%;
+        font-size: 95%;
    }
    .bio p {
         font-size: 80%;
@@ -650,7 +654,7 @@ form label {
     }
     .bio h4{
         margin-bottom: 10px;
-        font-size: 100%;
+        font-size: 120%;
     }     
     .bio p {
         font-size: 100%;
