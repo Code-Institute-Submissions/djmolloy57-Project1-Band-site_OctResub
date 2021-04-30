@@ -51,12 +51,21 @@ for special requirement. The is validation on these input fields.
 # Technologies Used
 
 * HTML
+    * For basic website page structure / markup
 
 * iframe
+    * For playing youtube videos
 
 * CSS3
+    * CSS3 for styling the website pages aligning elements with padding, margins and I used Float for positioning elements 
 
 * Font Awesome
+    * To provide social media icons for the page footer and for rating stars for Testimonial page. Accessed fontawsome from<br>
+      its url as a link in the head of site Pages.
+    
+* Google Font
+    * to make Paragraph Heading on Home page look  clearer I used Abril font-family referencing https://fonts.google.com/ CDN<br>
+      in the style css.
 
 # Testing
 
@@ -138,10 +147,23 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
 
 # Credits
 ## Media
-  * The photos used in this site are from : 
+  * The photos used on: 
+    * Testimonial Page – you are what you listen to image<br>
+      Sourced from : https://medium.com/the-post-grad-survival-guide/you-are-what-you-listen-to-but-what-if-you-change-the-song-accb18740f2b
+ 
+    * Contact Page - Flaming Guitar<br>
+      Sourced from : https://media.istockphoto.com/photos/guitar-on-fire-with-black-background-picture-id147712563?k=6&m=147712563&s=612x612&w=0&h=crIy_S-juGaAMNr9SDOnJKqi20dvP3xnDvVnhZOKFCA=
+
+    
 
 ## Acknowledgements
 
+   * Home Page gig guide was taken from the following youtube video https://www.youtube.com/watch?v=iOrJ63dQ9eE 
+
+   * I resolved the youtube playing in the iframe issue (for full explanation see the Testing section above) from<br>
+     the following site: https://www.youtube.com/watch?v=9YffrCViTVk 
+    
+   * For the Mobile phone Burger menu I drew inspiration from the following site https://www.youtube.com/watch?v=xMTs8tAapnQ 
 
 
 
