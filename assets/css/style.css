@@ -109,11 +109,13 @@ img{
     position: relative;
     text-align: center;
     display: block;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
+    margin-top: 25px;
     margin-left: 38px;
     max-width: 180px;
     max-height: 180px;
-    padding-bottom: 55px;
+    /*padding-bottom: 55px;*/
+    padding-bottom: 15px;
 }
 .band_pic {
     padding-left: 35px;
@@ -272,7 +274,7 @@ input[type=text],input[type=email],input[type=date],textarea{
 .form_textarea > textarea {
   height: 55px;
 }
-input[type=submit] {
+input[type=submit], input[type=reset] {
     margin-top: 10px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -283,6 +285,8 @@ input[type=submit] {
     display: block;
     font-size: 80%;
     cursor: pointer;
+    float:left;
+    margin-right: 10px;
 }
 form label {
     font-size: 70%;
@@ -428,7 +432,8 @@ form label {
         width: 200px;
         object-fit: cover;
         border-right: 10px;
-        padding-top: 50px;
+        /*padding-top: 50px;*/
+        padding-top: 20px;
         padding-bottom: 1px;
         margin-bottom: 1px;
   }
@@ -439,12 +444,22 @@ form label {
         margin-top: 0px;
 
    }
-   .bio p {
+   .bio h4{
         font-size: 80%;
    }
-   .gig span {
-        font-size: 100%;
+   .bio p {
+        font-size: 80%;
+        margin-bottom: 10px;
    }
+   .bio span{
+        font-size: 80%;
+   }
+   .gig div > span {
+        font-size: 70%;
+   }
+   /*.gig div > span {
+      font-size: 120%;
+   }*/
    .gig-wrapper {
         display: inline-block;
         padding-left: 10%;
@@ -456,10 +471,14 @@ form label {
    }
    .gig-wrapper h3{
         font-size: 80%;
-        padding-bottom: 0;
-        margin-bottom: 0;  
+        /*padding-bottom: 0;
+        margin-bottom: 0;*/ 
+        margin-top: 0px;
+        height: 15px;
+        padding-left: 10px;
    }
    .gig {
+        margin-top: 1px;
         margin-bottom: 20px; 
    }
    iframe {
