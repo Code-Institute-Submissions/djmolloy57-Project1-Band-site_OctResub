@@ -17,6 +17,9 @@ body {
     --black: black;
     --red: red;
 }
+
+/**** This section before the media query is mobile phone view  ******/
+
 header h1 {
     font-size: 150%;
 }
@@ -59,7 +62,6 @@ nav li > a{
 nav ul li:hover {
     background-color: var(--black);
 }
-
 .burger_menu {
     position: absolute;
     margin: 0px 10px 35px 35px;
@@ -71,7 +73,6 @@ nav ul li:hover {
     right: 0;
     color: var(--white);
 }
-
 #toggle:checked + #menu {
     display: block;
 }
@@ -85,6 +86,8 @@ img{
     max-height: 100%;
     display: block;
 }
+
+/* Home page styling */
 .bio {
     width: 230px;
     margin-top: 5px;
@@ -103,23 +106,20 @@ img{
 .bio span{
     font-weight: bold;
     font-size: 60%;
-
 }
 .band_pic {
     position: relative;
     text-align: center;
     display: block;
-    /*margin-top: 50px;*/
     margin-top: 25px;
     margin-left: 38px;
     max-width: 180px;
     max-height: 180px;
-    /*padding-bottom: 55px;*/
+    padding-left: 35px;
     padding-bottom: 15px;
 }
-.band_pic {
-    padding-left: 35px;
-}
+
+/* Live samples page styling */
 #video-list {
     text-align: center;
     margin-top: 10px;
@@ -132,7 +132,8 @@ iframe {
 }
 .position-videolist
 {
-    padding-left: 15px;
+    padding-left: 0px;
+    margin-left: 0px;    
 }
 .item-video{
     padding: 1%; 
@@ -153,6 +154,8 @@ iframe {
 .ToFindOut a:visited {
   color: var(--maroon);
 }
+
+/* Page Footer Styling */
 footer{
     height: 150px;
     padding-top: 20px;
@@ -171,6 +174,8 @@ footer ul >li i{
     padding: 20%;
     color: var(--black);
 }
+
+/* Testimonial Page Styling */
 .star-wrapper-pos{ 
     width: 170px; 
     height: 90px; 
@@ -195,7 +200,6 @@ footer ul >li i{
 }
 .star-section li{
     font-size: 90%;
-
 }
 .review_container_pos{
     padding-left: 25px;
@@ -203,7 +207,6 @@ footer ul >li i{
     height: 300px;
     width: 250px;
 }
-
 .test_title{
     background-color: var(--maroon);
     color: var(--white);
@@ -218,13 +221,11 @@ footer ul >li i{
 .test_title h3{
     font-size: 90%;
 }
-
 .user_review {
     height: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .user_review > p{
     font-style: italic;
     overflow-wrap: break-word;
@@ -234,7 +235,6 @@ footer ul >li i{
     font-size: 80%;
     padding: 0; 
 }
-
 .user_review footer > p span {
     font-weight: bold;
 }
@@ -250,9 +250,11 @@ footer ul >li i{
     padding-left: 25px;
     margin-top: 10px;
 }
+
+/* Contact page styling */
 .pos-bookingform {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 16px;
     color: var(--white);
     background-color: rgba(60, 60, 70, 0.6);
     width: 250px;
@@ -260,7 +262,6 @@ footer ul >li i{
     padding: 20px;
     border: 3px solid var(-maroon);
 }
-
 input[type=text],input[type=email],input[type=date],textarea{
   background: transparent;
   color: var(--white);
@@ -269,7 +270,6 @@ input[type=text],input[type=email],input[type=date],textarea{
   margin: 5px 0 20px 0;
   border: 1px solid var(--white);
   border-radius: 2px;
-
 }
 .form_textarea > textarea {
   height: 55px;
@@ -307,7 +307,6 @@ form label {
   margin-left: 90px;
   height: 35px;
 }
-
 .basepic { 
     position: relative;
     text-align: center;
@@ -322,6 +321,8 @@ form label {
    padding-left: 25px;
 }
 
+/* code below taken from external source and amended to apply to this sites gig event guide on home page
+  source site https://www.youtube.com/watch?v=iOrJ63dQ9eE    */
 .gig-wrapper {
     padding-top: 10px;
     padding-left: 40px;
@@ -374,7 +375,11 @@ form label {
     margin-top: -240px;
   }
 }
+
+/* Media query Ipad view  */
 @media screen and (min-width: 768px) and (max-width: 1024px){
+
+ /*Page header styling   */
   .position_header_title {
         padding: 0;
         margin: 5px 0px 5px, 0px;
@@ -382,13 +387,12 @@ form label {
         width: 768px;
         text-align: center;
   }
-  menu_position-container {
-        height: 70px;
-        padding: 0px -14px 0px -14px;
-  }
   header h1{
-        font-size: 200%;
+        font-size: 180%;
+        padding-top: 5px;
   }
+
+  /* navigation and menu styling */
   nav {
         height: 60px;
         background-color: var(--black);
@@ -424,6 +428,8 @@ form label {
         max-width: 120%;
         max-height: 120%;
   }
+
+  /*Home Page styling   */
   .band_pic  img{
         float: left;
         width: 20%;
@@ -432,7 +438,6 @@ form label {
         width: 200px;
         object-fit: cover;
         border-right: 10px;
-        /*padding-top: 50px;*/
         padding-top: 20px;
         padding-bottom: 1px;
         margin-bottom: 1px;
@@ -442,7 +447,6 @@ form label {
         width: 40%;
         padding-left: 80px;
         margin-top: 0px;
-
    }
    .bio h4{
         font-size: 80%;
@@ -457,9 +461,6 @@ form label {
    .gig div > span {
         font-size: 70%;
    }
-   /*.gig div > span {
-      font-size: 120%;
-   }*/
    .gig-wrapper {
         display: inline-block;
         padding-left: 10%;
@@ -471,8 +472,6 @@ form label {
    }
    .gig-wrapper h3{
         font-size: 80%;
-        /*padding-bottom: 0;
-        margin-bottom: 0;*/ 
         margin-top: 0px;
         height: 15px;
         padding-left: 10px;
@@ -481,6 +480,8 @@ form label {
         margin-top: 1px;
         margin-bottom: 20px; 
    }
+
+   /* Live Sample Page styling */
    iframe {
         height: 100%;
         width: 35%;
@@ -502,6 +503,8 @@ form label {
         padding-left: 70px;
         font-size: 70%;
     }
+
+   /* Testimonial Page Styling */
    .star-wrapper-pos{
         margin-top: 50px;
         margin-left: 70px;
@@ -538,6 +541,7 @@ form label {
         padding-bottom: 0px;
     }
 
+    /* Contact Page Styling*/
     .pos-bookingform {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -559,6 +563,8 @@ form label {
         padding-bottom: 0px;
     }
 
+
+    /* Footer Page Styling  */
     footer{
         clear: both;
         padding-top: 1px;
@@ -575,15 +581,16 @@ form label {
 
 }
 
+
 @media screen and (min-width: 1025px){
 
+    /*Page header Styling  */
     .position_header_title {
         padding: 15px;
         width: 1520px;
         text-align: center;       
         padding-top: 8px;
     }
-
     header h1 {
         font-size: 240%;
         padding-top: 0;
@@ -591,11 +598,9 @@ form label {
         margin-bottom: 0;
         padding-bottom: 0; 
         letter-spacing: 2px;
-
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
-
     nav {
           height: 55px;
           background-color: var(--black);
@@ -635,6 +640,8 @@ form label {
         max-height: 190%;
         display: block;
     }
+
+    /*Home Page Styling  */
     .bio {
         float: left;
         width: 550px;
@@ -644,19 +651,16 @@ form label {
     .bio h4{
         margin-bottom: 10px;
         font-size: 100%;
-    } 
-    
+    }     
     .bio p {
         font-size: 100%;
         margin-bottom: 10px;
     }
     .bio div p {
-        font-size: 100%;
-        
+        font-size: 100%;        
     } 
     .bio span{
     font-size: 100%;
-
     } 
     .band_pic{
         float: left;
@@ -669,6 +673,20 @@ form label {
         padding-right: 150px;
         margin-top: 55px;
     }
+    .gig-wrapper{
+       padding-top: 1px;
+       padding-left: 300px;
+       clear: both;
+       padding-bottom: 50px;
+   }
+    .gig div > span {
+      font-size: 100%;
+   }
+   .gig-wrapper h3 {
+      font-size: 100%;
+    }
+
+    /* Live Samples Page Styling  */
     iframe {
        width: 400px;
    }
@@ -680,11 +698,12 @@ form label {
    .item-video{
        display: inline;
    }
-
    .ToFindOut p {
-     padding-left: 330px;
+     padding-left: 321px;
      font-size: 100%;
    }
+
+   /* Footer Page Styling   */
     footer{
        clear: both;
    }
@@ -695,9 +714,8 @@ form label {
    footer ul >li i{
        font-size: 120%;
    }
-   iframe {
-       width: 400px;
-   }
+
+    /* Testimonial Page Styling  */   
     .star-wrapper-pos{
        max-width: 1020px;
        margin: 0px auto;
@@ -751,7 +769,9 @@ form label {
        padding-left: 20px;
        padding-bottom: 0px;
    }
-      .pos-bookingform {
+
+   /*Contact Page Styling  */
+   .pos-bookingform {
        margin-top: 20px;
        margin-bottom: 20px;
        margin-left: 350px;
@@ -798,16 +818,5 @@ form label {
        margin-left: 80px;
    }
 
-   .gig-wrapper{
-       padding-top: 1px;
-       padding-left: 300px;
-       clear: both;
-       padding-bottom: 50px;
-   }
-    .gig div > span {
-      font-size: 100%;
-   }
-   .gig-wrapper h3 {
-      font-size: 100%;
-    }
+  
 }
