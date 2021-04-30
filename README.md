@@ -104,6 +104,30 @@ iframe src="iframe src="https://www.youtube.com/embed/IYPVyJwzerM"
 This project site is completely responsive with different layout on iphone5, ipad and desktop device views.<br> This was 
 done using media queries.
 
+iphone5 - view: <br>
+* menu : is a burger menu icon on the top right- when clicked opens with menu options (home, live, testimonials, contact) 
+below the site title.<br> When you click any of the menu option it directs you to the relevant site page and menu options disappears back to burger menu
+icon.
+
+* Home page: The page layout sections are organized stacked below each other (sections image, Bio, gig event wrapper, footer social icons)
+
+* Live page: The page layout sections videos are stacked below each other, below this is paragraph text and below this is footer social icons.
+
+* Testimonial page: The page layout sections are organized stacked below each other (section site rating, customer review scroll section,Image,footer social icons. 
+* Contact page: The page layout sections are organized stacked below each other (sections Booking form,Image,footer social icons)
+
+ipad - view:<br>
+* menu: standard menu same style as the one in desktop view with menu options on the top right of the site page with options below:
+
+* Home page: The page layout sections are organized .....(sections image, Bio, gig event wrapper, footer social icons)
+
+* Live page: The page layout sections videos in a quad view, below this is paragraph text and below this is footer social icons.
+
+* Testimonial page: The page layout sections are organized section site rating, customer review scroll section,Image,footer social icons. 
+
+* Contact page: The page layout sections Booking form,Image,footer social icons
+
+
 # Deployment
 Local git repository was initated in the begining of this project and several commits were made during 
 the development. <br> Project was pushed to remote repository on https://github.com
@@ -114,6 +138,7 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
 
 # Credits
 ## Media
+  * The photos used in this site are from : 
 
 ## Acknowledgements
 
