@@ -264,8 +264,9 @@ footer ul >li i{
     width: 250px;
     height: 310px;
     padding: 20px;
-    border: 3px solid var(-maroon);
+    border: 3px solid var(--maroon);
 }
+
 input[type=text],input[type=email],input[type=date],textarea{
   background: transparent;
   color: var(--white);
@@ -386,7 +387,7 @@ form label {
  /*Page header styling   */
   .position_header_title {
         padding: 0;
-        margin: 5px 0px 5px, 0px;
+        margin: 5px 0px 5px 0px;
         height: 30px;
         width: 768px;
         text-align: center;
@@ -407,7 +408,7 @@ form label {
         max-width: 1300px;
         margin-top: 10px;
         margin-bottom: 10px;
-        padding: 0px -10px 0px -10px;
+        padding: 0px 1px 0px 1px;
         text-align: right;
         width: 768px;
         display: inline-block;
@@ -528,7 +529,6 @@ form label {
         padding-left: 10px;
         margin-left: 70px;
         width: 370px;
-        overflow: scrollbar;
         margin-bottom: 20px;
     }
    .user_review{
@@ -614,7 +614,7 @@ form label {
       max-width: 1450px; 
       margin-top: 10px;
       margin-bottom: 10px;
-      padding: 0px -10px 0px -10px;
+      padding: 0px 1px 0px 1px;
       text-align: right;
       width: 1535px;
       display: inline-block;
@@ -630,7 +630,6 @@ form label {
     }
     nav li > a {
           font-size: 79%;
-          padding: auto;
           margin-bottom: 5px;
           height: 40px;
           letter-spacing: 2px;
