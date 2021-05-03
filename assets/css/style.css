@@ -65,6 +65,10 @@ nav li > a{
 nav ul li:hover {
     background-color: var(--black);
 }
+.active {
+    border-bottom: 2px solid var(--black);
+}
+
 .burger_menu {
     position: absolute;
     margin: 0px 10px 35px 35px;
