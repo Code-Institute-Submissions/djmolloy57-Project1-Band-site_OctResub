@@ -393,6 +393,72 @@ form label {
   }
 }
 
+/* Media query Iphone 6/7/8 view  */
+@media screen and (min-width: 375px) and (max-width: 667px){
+
+  .position_header_title {
+      width: 360px;
+  }
+  nav ul {
+      width: 375px;
+  }
+  .burger_menu {
+      margin: 0px 38px 35px 35px;
+  }
+  .band_pic{
+      margin-left: 30px;
+  }
+  .bio {
+      margin-left: 70px;
+  }
+  .bio h4{
+      font-size: 85%;
+      margin-bottom: 10px;
+  }
+  .bio p {
+      font-size: 75%;
+  }
+  .bio span{
+      font-size: 75%;
+  }
+  .gig-wrapper {
+     padding-left: 70px;
+  }
+  .gig-wrapper h3{
+    font-size: 70%;
+  }
+  .gig {
+    font-size: 120%;
+  }
+  .ToFindOut{
+      padding-left: 55px;
+  }
+  .ToFindOut p{
+    overflow-wrap: break-word;
+  }
+
+  .test_title{
+      margin-left: 52px;
+  }
+  .review_container_pos{
+      padding-left: 53px;
+ }
+ .testpic {
+     padding-top: 20px;
+     margin-left: 40px;
+ }
+ .pos-bookingform {
+     margin-top: 20px;
+     margin-left: 45px;
+ }
+ .basepic {
+     margin-top: 20px;
+     margin-left: 35px;
+     margin-bottom: 20px;
+ }
+
+}
+
 /* Media query Ipad view  */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
