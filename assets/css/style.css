@@ -793,7 +793,10 @@ form label {
        display: inline;
    }
    .ToFindOut p {
-     padding-left: 360px;
+     padding-left: 150px;
+
+     margin-left: 200px;
+
      font-size: 100%;
    }
 
@@ -937,7 +940,10 @@ form label {
   nav ul {
     max-width: 1260px;
   }
-
+  .ToFindOut p {
+     margin-left: 350px;
+     padding-left: 10px;
+  }
 }
 /* media query to fix microsoft surface Go and lenovo duet chromebook tablet landscape view*/
 @media screen and (min-width: 1800px){
@@ -946,6 +952,12 @@ form label {
       max-height: 200px;
       max-width: 200px;
       padding-left: 100px;
+  }
+  .band_pic{
+      padding-left: 80px;
+  }
+  .bio {
+      padding-left: 50px;
   }
 
 }
