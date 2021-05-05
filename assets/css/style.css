@@ -930,11 +930,8 @@ form label {
       max-height: 300px;
       max-width: 300px;
   }
-  .bio{
-  }
   nav {
         height: 55px;
-        /*width: 1400px;*/
         width: 1550px;
   }
   nav ul {
@@ -942,4 +939,12 @@ form label {
   }
 
 }
+/* media query to fix microsoft surface Go and lenovo duet chromebook tablet landscape view*/
+@media screen and (min-width: 1800px){
 
+  .band_pic img{
+      max-height: 200px;
+      max-width: 200px;
+  }
+
+}
