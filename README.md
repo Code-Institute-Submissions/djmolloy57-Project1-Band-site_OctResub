@@ -5,7 +5,27 @@ Dark Flame is a cover band of the hugely popular 70's band 'The Band'.<br>
 band are also available for private functions<br> such as weddings and 
 corporate events.
 
+
+## Table of Contents
+> - [Description](#description)
+> - [Ux](#ux)
+> - [User Stories](#user-stories)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#Acknowledgements)
+
+# Description
+
+This website for the band provides information of the band, gig information,
+clips of the band live<br> and a booking form to book the band. The website is intended
+to be accessible on all types of devices<br> mobile phone, tablet, laptop and desktop.
+
 # UX
+
+### Strategy
 
 This project is a website for this band to inform fans of up and comming gigs
 and to attract new fans to learn more<br> about the band and its members through
@@ -17,6 +37,8 @@ A person or a business can book the band for private functions or corporate
 events through the sites Contact page.<br>
 
 The site is easy to navigate and is made up of multiple web pages.
+
+# User Stories
 
 # Features
 
@@ -69,7 +91,12 @@ for special requirement. The is validation on these input fields.
 
 # Testing
 
-Testing was done manually by me and also by members of my family
+Testing was done manually by me and also by members of my family.
+
+* Forms testing:<br>
+   I tested the Contact page form on different devices and browsers. 
+   This was done by clicking the form submit button on the <br>Contact page
+   with the form fields empty to make sure it resulted with the desired response of 'Please fill out this field'.
 
 The following bug was found early on
 Issue:<br>
