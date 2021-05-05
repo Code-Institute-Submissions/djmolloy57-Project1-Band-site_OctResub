@@ -945,6 +945,7 @@ form label {
   .band_pic img{
       max-height: 200px;
       max-width: 200px;
+      padding-left: 100px;
   }
 
 }
