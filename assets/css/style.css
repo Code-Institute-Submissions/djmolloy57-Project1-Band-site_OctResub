@@ -921,7 +921,25 @@ form label {
    .basepic img{
        max-width: 375px;
        max-height: 375px;
-   }
-
-  
+   }  
 }
+/* media query for external 21inch Samsung monitor*/ 
+@media screen and (min-width: 1280px){
+
+  .band_pic img{
+      max-height: 300px;
+      max-width: 300px;
+  }
+  .bio{
+  }
+  nav {
+        height: 55px;
+        /*width: 1400px;*/
+        width: 1550px;
+  }
+  nav ul {
+    max-width: 1260px;
+  }
+
+}
+
