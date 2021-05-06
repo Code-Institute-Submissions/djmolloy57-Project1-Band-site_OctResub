@@ -255,6 +255,8 @@ ipad - view:<br>
 I ran the website url in responsive design site such as http://ami.responsivedesign.is/#
 which shows the site rendering correctly accross different device screens.
 
+![mysite_ami_responsive_site](https://user-images.githubusercontent.com/75915440/117373120-8f89e700-aec2-11eb-8dd4-76e1b617c80b.png)
+
 Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile
 friendly see link:
 https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit&id=R5w9HUS8MB2PJiTDutzfjg
