@@ -36,9 +36,94 @@ Live sample page which shows video snippets of live performances.<br>
 A person or a business can book the band for private functions or corporate 
 events through the sites Contact page.<br>
 
+### Business Goals
+
+* External user goals: <br>
+  The site's users are fans and potential fans who wish to learn more about the band's 
+  history and the band members,<br> and possibly book them for shows.
+
+* Site owner's goal: <br>
+  The band are interested in selling more of their music and getting more gigs
+
 The site is easy to navigate and is made up of multiple web pages.
 
 # User Stories
+* As a First Time Visitor : <br>
+   
+  * "I would like to find out the about the band and what styles of music they play."
+
+  * "As someone who is new to the band I would to sample some of their music."
+
+  * "As a first time visitor I would like to easily navigate the website to find the information
+     I need."
+    
+  * "As a newcommer to the band site I would like to see reviews/customer testimonials of the band."
+
+  
+* As a Regular Visitor:
+
+  * "I would like to see when and where the band are playing their upcomming gigs."
+
+  * "I would like to book the band for a private function."
+
+## Scope
+  
+   This website incorporate Minimal Viable Product (MVP) elements.
+
+   * Fullfills the needs of both the external user (visitors to the site) and business owner(the band)
+     with features such as gig guide, sample clicks, customer/fan review/testimonials and booking form.
+
+   * Website not cluttered with too much information. Band and gig Information is clearly presented. 
+     Site is easy to navigate.
+
+## Structure
+The website comprises of four webpages. Each page provides the visitor with information of its respective 
+page title eg Home, Live, Testimonials and Contact. A navigation bar near the top of each page contains
+buttons for each page when pressed will direct the visitor to the relevant page. Although the page titles
+are self-explanatory, to enhance UX experience I have included a feature where the actice site page button title name is underlined 
+to inform user of what page he is on.
+
+## Skeleton
+
+In the main the wireframes more or less match my final project. Feature such as store page were dropped
+as I was told it was outside the scope of the project.
+
+See links to relevent section of the wireframes.
+* home
+    * desktop:
+    * mobile:
+
+* live
+    * desktop:
+    * mobile:
+
+* Testimonial
+    * desktop:
+    * mobile:
+
+* Contact 
+    * desktop:
+    * mobile: 
+
+##  Images
+
+The images were choosen to convey a live vibe to entice the visitor 
+to check out the band live. The images also blended in well with the 
+sites colour scheme.
+
+## Colours
+
+I choose Maroon backcolour for the site title page. For the navigation bar
+I choose a black backdrop with Maroon buttons with white colour for site
+title on the button. When the vistors moves/hovers the mouse pointer over the maroon button
+it changes/transitons to black once mouse moves away its returns to maroon colour
+this is to provide a better UX experience for the user.
+The colour I feel is in keeping with the bands vibe.
+
+## Typography
+
+I used Google fonts to enhance some text sections of the site. I decided on 
+Abril with backup sans-serif for text headings on the home page.
 
 # Features
 
@@ -97,6 +182,9 @@ Testing was done manually by me and also by members of my family.
    I tested the Contact page form on different devices and browsers. 
    This was done by clicking the form submit button on the <br>Contact page
    with the form fields empty to make sure it resulted with the desired response of 'Please fill out this field'.
+
+* Links (Internal & External): <br>
+  Each of the links when clicked have been checked so that the user is directed to the desired location. 
 
 The following bug was found early on
 Issue:<br>
@@ -162,6 +250,35 @@ ipad - view:<br>
 * Testimonial page: The page layout sections are organized section site rating, customer review scroll section,Image,footer social icons. 
 
 * Contact page: The page layout sections Booking form,Image,footer social icons
+
+
+I ran the website url in responsive design site such as http://ami.responsivedesign.is/#
+which shows the site rendering correctly accross different device screens.
+
+Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile
+friendly.
+
+I have tested the website on various device 
+* Android mobile phones:
+  * Samsung S20 FE.  (Works in portrait mode)
+  * Samsung: Galaxy A21e (works in portrait mode)
+
+* IOS mobile phone
+  * iphone 7  (works in portrait mode)
+
+* Android Tablet:
+  *  Samsung A10 – 10 inch Tablet  works in (works in landscape mode)  
+  *  Asus ZenPad 8.0 inch z380 1280 x 800px (works in landscape mode)
+
+* Chrome book Tablet:
+  * Lenovo Duet Chrome Table (works in portrait mode)
+
+* Mac OSX :
+  * 2016 Mac Book Pro  
+
+* Windows 10 :
+  * Acer Nitro 15.6 inch - 1920x1080 IPS display
+  * external 21 inch Samsung Monitor 1366 x 768
 
 
 # Deployment
