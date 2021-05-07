@@ -372,8 +372,19 @@ CSS
 
 
 # Deployment
-Local git repository was initated in the begining of this project and several commits were made during 
-the development. <br> Project was pushed to remote repository on https://github.com
+Local git repository was initated in the begining of this project, gitpod and IDE  was used to write the code for this project and regular commits 
+were done throughout the site development and were pushed to remote repository on https://github.com
+
+The site was deployed to GitHub pages.<br> 
+
+Steps to deploy are as follows:<br>
+In the GitHub repository, navigate to the Settings tab<br>
+From the source section drop-down menu, select the Master Branch.<br> 
+Once the master branch has been selected, the page will be automatically refreshed<br> 
+with a detailed ribbon  display to indicate the successful deployment.<br>
+
+The live link can be found here: https://djmolloy57.github.io/Project1-Band-site/testimonial.htm
+
 
 # Feature would like:
 Features we would like is a Store page where merchandise such as music and cloths(eg band t-shirts) can 
