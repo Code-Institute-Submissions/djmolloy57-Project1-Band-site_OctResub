@@ -149,6 +149,7 @@ There is a section for gig event timetable – which shows<br> dates and venues 
 different musical styles of the<br> band which the user can view. There is a prompts to 
 click on Testimonials for customer feedback of those who has seen <br> the band live and to click on Contact 
 if visitor to site is interested in booking the band. 
+![live_page](https://user-images.githubusercontent.com/75915440/117479503-5308ca80-af58-11eb-8ef5-172cca3c9cca.png)
 
 * Testimonial Page – This page list customer testimonials who have booked the band for
 functions or have seen the band<br> at live venues. The page broken into section and articles 
