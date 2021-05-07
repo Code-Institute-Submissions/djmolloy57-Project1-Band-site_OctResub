@@ -443,7 +443,9 @@ form label {
   .ToFindOut p{
     overflow-wrap: break-word;
   }
-
+  .star-wrapper-pos{
+        margin-left: 53px; 
+  }
   .test_title{
       margin-left: 52px;
   }
