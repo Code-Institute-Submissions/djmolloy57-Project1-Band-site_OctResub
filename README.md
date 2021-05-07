@@ -366,8 +366,9 @@ I have tested the websites in the following browsers
 ## Validator Testing 
 
 HTML
-  * No errors were returned when passing through the official validator site  <a href="https://validator.w3.org/" target="_blank" >W3C Validator</a>
-
+  * No errors were returned when passing through the official validator site  <a href="https://validator.w3.org/" target="_blank" >W3C Validator</a><br>
+   Home ulr was checked - no errors:<br>
+   ![HTML_w3c_validator_Home_page_resized](https://user-images.githubusercontent.com/75915440/117518564-22488580-af98-11eb-8f14-afd1b06a4c76.png)
 
      
 CSS
