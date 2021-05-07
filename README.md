@@ -5,6 +5,8 @@ Dark Flame is a cover band of the hugely popular 70's band 'The Band'.<br>
 band are also available for private functions<br> such as weddings and 
 corporate events.
 
+![site_resonsiveness_ami](https://user-images.githubusercontent.com/75915440/117476122-bd1f7080-af54-11eb-83e3-fdb617b355aa.png)
+
 
 ## Table of Contents
 > - [Description](#description)
