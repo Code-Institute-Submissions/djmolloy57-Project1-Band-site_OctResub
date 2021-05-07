@@ -269,9 +269,12 @@ I ran the website url in responsive design site such as http://ami.responsivedes
 which shows the site rendering correctly accross different device screens.
 
 
-Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile
-friendly see link:
+Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile friendly see link:
 https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit&id=R5w9HUS8MB2PJiTDutzfjg
+
+Checked the sites Home Page url in the Google Mobile Friendy Test and it passed:
+![MySite_index_page_mobile_friendly](https://user-images.githubusercontent.com/75915440/117495950-3aa3aa80-af6e-11eb-835e-f96cc33c13a1.png)
+
 
 I have tested the website on various device 
 * Android mobile phones:
