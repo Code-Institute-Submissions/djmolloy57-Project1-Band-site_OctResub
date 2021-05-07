@@ -291,6 +291,11 @@ Checked the sites Home Page url in the Google Mobile Friendly Test and it passed
 Checked the sites Live Page url in the Google Mobile Friendly Test and it passed:
 ![MySite_live_page_google_mobile_friendly](https://user-images.githubusercontent.com/75915440/117497029-c9fd8d80-af6f-11eb-9b90-d4dc530c0d04.png)
 
+Checked the sites Testimonial Page url in Google Mobile Friendly Test and it passed:
+
+![MySite_Testimonial_page_Google_Mobile_Friendly](https://user-images.githubusercontent.com/75915440/117509975-1f8f6580-af83-11eb-8f2d-8655039e3b9f.png)
+
+
 Checked the sites Contact Page url in the Google Mobile Friendly Test and it passed:
 ![MySite_Contact_google_mobile_friendly](https://user-images.githubusercontent.com/75915440/117496513-11374e80-af6f-11eb-9031-2eafcbb6746a.png)
 
@@ -317,6 +322,11 @@ I have tested the website on various device
   * Acer Nitro 15.6 inch - 1920x1080 IPS display
   * external 21 inch Samsung Monitor 1366 x 768
 
+I have tested the websites in the following browsers
+ * Chrome
+ * Firefox
+ * Safari
+ 
 
 # Deployment
 Local git repository was initated in the begining of this project and several commits were made during 
