@@ -154,6 +154,7 @@ if visitor to site is interested in booking the band.
 * Testimonial Page – This page list customer testimonials who have booked the band for
 functions or have seen the band<br> at live venues. The page broken into section and articles 
 outlining each customers testimonials.
+![Testimonial_page](https://user-images.githubusercontent.com/75915440/117479730-95caa280-af58-11eb-8fca-3e2b0cfa6cf5.png)
 
 * Contact Page –  Is a web form so visitors to the site can book the band for a function 
 by filling our a form which includes<br> customer name,email, date of function and a text area 
