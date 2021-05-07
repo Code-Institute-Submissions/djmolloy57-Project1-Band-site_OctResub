@@ -275,6 +275,9 @@ https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&
 Checked the sites Home Page url in the Google Mobile Friendy Test and it passed:
 ![MySite_index_page_mobile_friendly](https://user-images.githubusercontent.com/75915440/117495950-3aa3aa80-af6e-11eb-835e-f96cc33c13a1.png)
 
+Checked the sites Contact Page url in the Google Mobile Friendy Test and it passed:
+![MySite_Contact_google_mobile_friendly](https://user-images.githubusercontent.com/75915440/117496513-11374e80-af6f-11eb-9031-2eafcbb6746a.png)
+
 
 I have tested the website on various device 
 * Android mobile phones:
