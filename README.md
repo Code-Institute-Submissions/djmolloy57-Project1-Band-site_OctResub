@@ -137,6 +137,9 @@ For mobile phone device’s the navigation menu changes to a hamburger menu as
 a responsive layout, site pages such as<br> live sample site videos list layout changes 
 to provide the best viewing experience.<br> 
 
+![iphone7_home_page_alt_resize](https://user-images.githubusercontent.com/75915440/117485891-d6c6b500-af60-11eb-9286-f350abad9e28.jpg)
+
+
 Likewise tablet devices have been accomodated where the layout changes to provide best 
 viewing experience.<br> This was done entirely in html and css for good user experience.<br>
 
