@@ -134,7 +134,24 @@ web pages. On the footer of each page there is social media icons which when cli
 
 For mobile phone device’s the navigation menu changes to a hamburger menu as
 a responsive layout, site pages such as<br> live sample site videos list layout changes 
-to provide the best viewing experience.<br> <br>Mobile Home View: 
+to provide the best viewing experience.
+
+This project site is completely responsive with different layout on mobile phones, tablets and desktop/laptop device views.<br> This was 
+done using media queries.
+
+Mobile view: <br>
+* menu : is a burger menu icon on the top right- when clicked opens with menu options (home, live, testimonials, contact) 
+below the site title.<br> When you click any of the menu option it directs you to the relevant site page and menu options disappears back to burger menu
+icon.
+
+* Home page: The page layout sections are organized stacked below each other (sections image, Bio, gig event wrapper, footer social icons)
+
+* Live page: The page layout sections videos are stacked below each other, below this is paragraph text and below this is footer social icons.
+
+* Testimonial page: The page layout sections are organized stacked below each other (section site rating, customer review scroll section,Image,footer social icons. 
+* Contact page: The page layout sections are organized stacked below each other (sections Booking form,Image,footer social icons)
+
+<br> <br>Mobile Home View: 
 
  ![resize_iphone7_home_page](https://user-images.githubusercontent.com/75915440/117490103-4ab78c00-af66-11eb-86a0-0cc588eaa6b1.png) |"Burger Icon clicked" 
  |![resize_home_menu_iphone7](https://user-images.githubusercontent.com/75915440/117488289-2490ec80-af64-11eb-8887-aefe176edad8.png)
@@ -251,38 +268,14 @@ in my css file.
     }
 }
 
- This fixed the issue for Samsung mobile, however it impacted the iphone 6/7/8 where the Star Rating box was mis-aligned on these devices. This was fixed by adding a
- star-wrapper-pos rule in its media query as follows:
+ This fixed the issue for Samsung mobile see screenshot below, however it impacted the iphone 6/7/8 where the Star Rating box was mis-aligned on these devices. This was fixed by adding a star-wrapper-pos rule in its media query as follows:
  
    .star-wrapper-pos{
         margin-left: 53px; 
    }
+   
+![samsungS20_testimonial_fixed_resizzed](https://user-images.githubusercontent.com/75915440/117508913-3af97100-af81-11eb-9c3e-cd9a1e525651.jpg)
 
-This project site is completely responsive with different layout on mobile phones, tablets and desktop/laptop device views.<br> This was 
-done using media queries.
-
-iphone5 - view: <br>
-* menu : is a burger menu icon on the top right- when clicked opens with menu options (home, live, testimonials, contact) 
-below the site title.<br> When you click any of the menu option it directs you to the relevant site page and menu options disappears back to burger menu
-icon.
-
-* Home page: The page layout sections are organized stacked below each other (sections image, Bio, gig event wrapper, footer social icons)
-
-* Live page: The page layout sections videos are stacked below each other, below this is paragraph text and below this is footer social icons.
-
-* Testimonial page: The page layout sections are organized stacked below each other (section site rating, customer review scroll section,Image,footer social icons. 
-* Contact page: The page layout sections are organized stacked below each other (sections Booking form,Image,footer social icons)
-
-ipad - view:<br>
-* menu: standard menu same style as the one in desktop view with menu options on the top right of the site page with options below:
-
-* Home page: The page layout sections are organized .....(sections image, Bio, gig event wrapper, footer social icons)
-
-* Live page: The page layout sections videos in a quad view, below this is paragraph text and below this is footer social icons.
-
-* Testimonial page: The page layout sections are organized section site rating, customer review scroll section,Image,footer social icons. 
-
-* Contact page: The page layout sections Booking form,Image,footer social icons
 
 
 I ran the website url in responsive design site such as http://ami.responsivedesign.is/#
