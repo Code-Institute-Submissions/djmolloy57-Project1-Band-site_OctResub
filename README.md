@@ -159,6 +159,7 @@ outlining each customers testimonials.
 * Contact Page –  Is a web form so visitors to the site can book the band for a function 
 by filling our a form which includes<br> customer name,email, date of function and a text area 
 for special requirement. The is validation on these input fields.
+![contact](https://user-images.githubusercontent.com/75915440/117479971-df1af200-af58-11eb-9360-46cf6346207f.png)
 
 # Technologies Used
 
