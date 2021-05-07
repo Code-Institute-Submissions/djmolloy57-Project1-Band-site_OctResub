@@ -143,6 +143,7 @@ viewing experience.<br> This was done entirely in html and css for good user exp
 * Main Page – Has a small paragraph with band biography information and that the band 
 is available for private and <br> corporate functions and an exampple customer testimonial. 
 There is a section for gig event timetable – which shows<br> dates and venues of upcoming gigs. 
+![home_page](https://user-images.githubusercontent.com/75915440/117479173-e8578f00-af57-11eb-94d0-64f83de6d8fd.png)
 
 * Live Samples Page – There is sample youtube videos of the band live which show the 
 different musical styles of the<br> band which the user can view. There is a prompts to 
@@ -257,7 +258,6 @@ ipad - view:<br>
 I ran the website url in responsive design site such as http://ami.responsivedesign.is/#
 which shows the site rendering correctly accross different device screens.
 
-![mysite_ami_responsive_site](https://user-images.githubusercontent.com/75915440/117373120-8f89e700-aec2-11eb-8dd4-76e1b617c80b.png)
 
 Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile
 friendly see link:
