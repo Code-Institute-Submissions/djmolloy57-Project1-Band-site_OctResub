@@ -366,9 +366,13 @@ I have tested the websites in the following browsers
 ## Validator Testing 
 
 HTML
-  * No errors were returned when passing through the official validator site  <a href="https://validator.w3.org/" target="_blank" >W3C Validator</a>      
+  * No errors were returned when passing through the official validator site  <a href="https://validator.w3.org/" target="_blank" >W3C Validator</a>
+
+
+     
 CSS
   * No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank" >(Jigsaw) validator</a>
+ ![jigsaw_w3_css_validator](https://user-images.githubusercontent.com/75915440/117518208-c6c9c800-af96-11eb-9afa-fc0b5c665cfd.png)
 
 
 # Deployment
