@@ -100,7 +100,7 @@ See links to relevent section of the wireframes.
     * mobile:  <a href="assets/Mobile_live_page_wireframe.png" target="_blank" >Mobile Wireframe Live</a>
 
 * Testimonial
-    * desktop: <a href="assets/Desktop_Testimonials_page_wireframe.png" target="_blank">Desktop Wireframe Testimonial</a>
+    * desktop: <a href="assets/Desktop_Testimonials_wireframe.png" target="_blank">Desktop Wireframe Testimonial</a>
     * mobile:  <a href="assets/Mobile_Testimonial_page_wireframe.png" target="_blank" >Mobile Wireframe Testimonial</a>
 
 * Contact 
