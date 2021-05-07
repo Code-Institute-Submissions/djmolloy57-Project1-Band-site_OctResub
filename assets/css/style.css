@@ -392,6 +392,13 @@ form label {
     margin-top: -240px;
   }
 }
+/* media query for Samsumg S5 added 20:34 7th May to try fix Testimonial Star rating box misaligned  */ 
+@media screen and (min-width: 360px){
+
+    .star-wrapper-pos{
+        margin-left: 25px; /*fixed it when check Samsung S5 view in Chrome Dev Tools*/
+    }
+}
 
 /* Media query Iphone 6/7/8 view  */
 @media screen and (min-width: 375px) and (max-width: 667px){
