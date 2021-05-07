@@ -327,7 +327,49 @@ I have tested the websites in the following browsers
  * Chrome
  * Firefox
  * Safari
- 
+
+## Testing User Stories
+
+* As a First Time Visitor : <br>
+   
+  * "I would like to find out the about the band and what styles of music they play."
+   
+     The site Home page provides Biography of the band. The live page provides live sample of different styles of music.
+
+  * "As someone who is new to the band I would to sample some of their music."
+
+     The live page provides live sample youtube videos for vistor to play.
+
+  * "As a first time visitor I would like to easily navigate the website to find the information
+     I need."
+     
+     The website is clearly laid out and easy to navigate. The site navigation highlights the page that is currently being viewed.
+     There is prompts on the live page about where to go to book the band.
+    
+  * "As a newcommer to the band site I would like to see reviews/customer testimonials of the band."
+     
+     There is a testimonial page where you can see fan/customer reviews in a scrollable section.
+     
+  
+* As a Regular Visitor:
+
+  * "I would like to see when and where the band are playing their upcomming gigs."
+
+     On the home page there is a gig guide section which provides dates and venues of upcomming gigs
+     
+  * "I would like to book the band for a private function."
+
+     On the Contact page there is a booking form were the band can be booked for a function, there is a date picker section
+     where you submit the date you are looking for aswell as a special requirements section.
+     
+
+## Validator Testing 
+
+HTML
+  * No errors were returned when passing through the official validator site  <a href="https://validator.w3.org/" target="_blank" >W3C Validator</a>      
+CSS
+  * No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank" >(Jigsaw) validator</a>
+
 
 # Deployment
 Local git repository was initated in the begining of this project and several commits were made during 
@@ -357,5 +399,6 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
     
    * For the Mobile phone Burger menu I drew inspiration from the following site https://www.youtube.com/watch?v=xMTs8tAapnQ 
 
-
+   * I used the Love Running code institute form dump endpoint for my booking form in the Contact Page. 
+    
 
