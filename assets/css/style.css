@@ -392,11 +392,11 @@ form label {
     margin-top: -240px;
   }
 }
-/* media query for Samsumg S5 added 20:34 7th May to try fix Testimonial Star rating box misaligned  */ 
+/* media query for Samsumg S5/S20 to align Star rating section correctly */ 
 @media screen and (min-width: 360px){
 
     .star-wrapper-pos{
-        margin-left: 25px; /*fixed it when check Samsung S5 view in Chrome Dev Tools*/
+        margin-left: 25px; 
     }
 }
 
@@ -853,10 +853,7 @@ form label {
        float: left;
        width: 590px;
        padding-left: 270px;
-
        padding-right: 20px;
-
-
    }
    .user_review {
      padding: 0;
@@ -937,7 +934,7 @@ form label {
 }
 /* media query for external 21inch Samsung monitor*/ 
 @media screen and (min-width: 1280px){
-
+  
   .band_pic img{
       max-height: 300px;
       max-width: 300px;
