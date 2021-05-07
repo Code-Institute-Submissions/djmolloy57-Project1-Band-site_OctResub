@@ -272,10 +272,13 @@ which shows the site rendering correctly accross different device screens.
 Likewise ran the site url through Google Mobile Friendly Test which confirmed site is mobile friendly see link:
 https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit&id=R5w9HUS8MB2PJiTDutzfjg
 
-Checked the sites Home Page url in the Google Mobile Friendy Test and it passed:
+Checked the sites Home Page url in the Google Mobile Friendly Test and it passed:
 ![MySite_index_page_mobile_friendly](https://user-images.githubusercontent.com/75915440/117495950-3aa3aa80-af6e-11eb-835e-f96cc33c13a1.png)
 
-Checked the sites Contact Page url in the Google Mobile Friendy Test and it passed:
+Checked the sites Live Page url in the Google Mobile Friendly Test and it passed:
+![MySite_live_page_google_mobile_friendly](https://user-images.githubusercontent.com/75915440/117497029-c9fd8d80-af6f-11eb-9b90-d4dc530c0d04.png)
+
+Checked the sites Contact Page url in the Google Mobile Friendly Test and it passed:
 ![MySite_Contact_google_mobile_friendly](https://user-images.githubusercontent.com/75915440/117496513-11374e80-af6f-11eb-9031-2eafcbb6746a.png)
 
 
