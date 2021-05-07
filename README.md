@@ -236,9 +236,29 @@ fixed by include youtube embeded link instead:
 ```html
 iframe src="iframe src="https://www.youtube.com/embed/IYPVyJwzerM"
 ```
+There was an issue with Star Rating box on the Testimonial Page being miss-aligned with respect to the other page elements
+for Samsung S5 (discovered in Chrome Developer tools) and when Samsung S20 FE phyical phone see screenshot below: 
+![Samsung_S20_FE_testimonial_issue_resize](https://user-images.githubusercontent.com/75915440/117506013-d2a89080-af7c-11eb-99e8-cc7cf5e74e1d.jpg)
 
+I Inspected the Star Rating box element in Chrome Developer Tools look in Box model for the element the element positioning is handled by css class star-wrapper-pos
+it shows it as a margin issue showing margin-left as 45px when I changed it margin-left to 25px in the box model it fixed it. I created the following media query
+in my css file.
 
-This project site is completely responsive with different layout on iphone5, ipad and desktop device views.<br> This was 
+@media screen and (min-width: 360px){
+
+    .star-wrapper-pos{
+        margin-left: 25px; 
+    }
+}
+
+ This fixed the issue for Samsung mobile, however it impacted the iphone 6/7/8 where the Star Rating box was mis-aligned on these devices. This was fixed by adding a
+ star-wrapper-pos rule in its media query as follows:
+ 
+   .star-wrapper-pos{
+        margin-left: 53px; 
+   }
+
+This project site is completely responsive with different layout on mobile phones, tablets and desktop/laptop device views.<br> This was 
 done using media queries.
 
 iphone5 - view: <br>
