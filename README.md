@@ -92,20 +92,21 @@ as I was told it was outside the scope of the project.
 
 See links to relevent section of the wireframes.
 * home
-    * desktop:
-    * mobile:
+    * desktop: <a href="assets/Desktop_Home_page_wireframe.png" target="_blank" >Desktop Wireframe Home</a>
+    * mobile:  <a href="assets/Mobile_Home_page_wireframe.png" target="_blank" >Mobile Wireframe Home</a>
 
 * live
-    * desktop:
-    * mobile:
+    * desktop: <a href="assets/Desktop_Live_page_wireframe.png" target="_blank" >Desktop Wireframe Live</a>
+    * mobile:  <a href="assets/Mobile_live_page_wireframe.png" target="_blank" >Mobile Wireframe Live</a>
 
 * Testimonial
-    * desktop:
-    * mobile:
+    * desktop: <a href="assets/Desktop_Testimonials_page_wireframe.png" target="_blank">Desktop Wireframe Testimonial</a>
+    * mobile:  <a href="assets/Mobile_Testimonial_page_wireframe.png" target="_blank" >Mobile Wireframe Testimonial</a>
 
 * Contact 
-    * desktop:
-    * mobile: 
+    * desktop: <a href="assets/Desktop_Contact_wireframe.png" target="_blank">Desktop Wireframe Contact</a>
+    * mobile: <a href="assets/Mobile_Contact_Page_wireframe.png" target="_blank" >Mobile Wireframe Contact</a>
+
 
 ##  Images
 
