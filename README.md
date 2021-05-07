@@ -136,11 +136,12 @@ For mobile phone device’s the navigation menu changes to a hamburger menu as
 a responsive layout, site pages such as<br> live sample site videos list layout changes 
 to provide the best viewing experience.<br> <br>Mobile Home View: 
 
- ![resize_iphone7_home_page](https://user-images.githubusercontent.com/75915440/117490103-4ab78c00-af66-11eb-86a0-0cc588eaa6b1.png)&nbsp;&nbsp;&nbsp;  |![resize_home_menu_iphone7](https://user-images.githubusercontent.com/75915440/117488289-2490ec80-af64-11eb-8887-aefe176edad8.png)
+ ![resize_iphone7_home_page](https://user-images.githubusercontent.com/75915440/117490103-4ab78c00-af66-11eb-86a0-0cc588eaa6b1.png) |"Burger Icon clicked" 
+ |![resize_home_menu_iphone7](https://user-images.githubusercontent.com/75915440/117488289-2490ec80-af64-11eb-8887-aefe176edad8.png)
  
- Live Mobile View:
+ Live and Testimonial Mobile View:
  
- ![resize_live_iphone7](https://user-images.githubusercontent.com/75915440/117490398-9ff39d80-af66-11eb-8d9c-662f463715ec.png)
+ ![resize_live_iphone7](https://user-images.githubusercontent.com/75915440/117490398-9ff39d80-af66-11eb-8d9c-662f463715ec.png) | ![resize_testimonial_iphone7](https://user-images.githubusercontent.com/75915440/117494057-b6e8be80-af6b-11eb-835c-0b1ccc591de3.png)
 
 
 The tablet views is similar to the laptop/desktop layout as seen in the screenshots below which provide best 
