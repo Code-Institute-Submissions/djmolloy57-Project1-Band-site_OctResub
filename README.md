@@ -129,11 +129,10 @@ Abril with backup sans-serif for text headings on the home page.
 
 # Features
 
-This project is a multiple page website with four web pages. All pages have a 
-navigation menu is relative to viewport.<br> On the footer of each page there is 
-social media icons which when click connect to the relevant social network service.<br>
+This project is a multiple page website with four web pages. All pages have a navigation menu which allow for easy access to the sites 
+web pages. On the footer of each page there is social media icons which when click connect to the relevant social network web page.<br>
 
-For mobile phone device’s the navi ation menu changes to a hamburger menu as
+For mobile phone device’s the navigation menu changes to a hamburger menu as
 a responsive layout, site pages such as<br> live sample site videos list layout changes 
 to provide the best viewing experience.<br> <br>Mobile Home View: 
 
@@ -144,7 +143,7 @@ to provide the best viewing experience.<br> <br>Mobile Home View:
  ![resize_live_iphone7](https://user-images.githubusercontent.com/75915440/117490398-9ff39d80-af66-11eb-8d9c-662f463715ec.png)
 
 
-Likewise tablet devices have been accomodated where the layout changes to provide best 
+The tablet views is similar to the laptop/desktop layout as seen in the screenshots below which provide best 
 viewing experience.<br> This was done entirely in html and css for good user experience.<br>
 
 * Main Page – Has a small paragraph with band biography information and that the band 
