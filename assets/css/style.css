@@ -682,18 +682,13 @@ form label {
     }
      nav {
         width: 950px;
-     }
-    
-    
+     }   
     .band_pic{
       margin-left: 10px;
     }
    .bio {
       margin-left: 10px;
     }
-   .bio h4{
-      color: green;
-   }
 }
 
 @media screen and (min-width: 1025px){
@@ -961,7 +956,6 @@ form label {
      padding-left: 10px;
   }
 }
-/* media query to Macbook Pro 2014 */
 @media screen and (min-width: 1600px){
 
   .band_pic img{
