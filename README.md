@@ -325,6 +325,10 @@ I have tested the websites in the following browsers
  * Firefox
  * Safari
 
+## Remaining issues:
+
+I could not get the site to render propery on Microsoft Go. I had no joy finding the relevant media query for it online.
+
 ## Testing User Stories
 
 * As a First Time Visitor : <br>
