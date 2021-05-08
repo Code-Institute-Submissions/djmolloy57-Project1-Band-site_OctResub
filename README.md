@@ -1,6 +1,6 @@
 # DARK FLAME ( a fictitious cover band)
 
-Dark Flame is a cover band of the hugely popular 70's band 'The Band'.<br>
+Dark Flame is a fictitious cover band of the hugely popular 70's band 'The Band'.<br>
  Aswell as performing in regular gigs in venue's throughout Ireland the
 band are also available for private functions<br> such as weddings and 
 corporate events.
@@ -21,7 +21,7 @@ corporate events.
 
 # Description
 
-This website for the band provides information of the band, gig information,
+A band website which provides band information, gig information,
 clips of the band live<br> and a booking form to book the band. The website is intended
 to be accessible on all types of devices<br> mobile phone, tablet, laptop and desktop.
 
@@ -29,7 +29,7 @@ to be accessible on all types of devices<br> mobile phone, tablet, laptop and de
 
 ### Strategy
 
-This project is a website for this band to inform fans of up and comming gigs
+This object of the website is to inform fans of up and comming gigs
 and to attract new fans to learn more<br> about the band and its members through
 the bands biography section on the main page.
 Visitors to the site can also<br> get a feel for the band by visiting the sites 
@@ -82,7 +82,7 @@ The site is easy to navigate and is made up of multiple web pages.
 The website comprises of four webpages. Each page provides the visitor with information of its respective 
 page title eg Home, Live, Testimonials and Contact. A navigation bar near the top of each page contains
 buttons for each page when pressed will direct the visitor to the relevant page. Although the page titles
-are self-explanatory, to enhance UX experience I have included a feature where the actice site page button title name is underlined 
+are self-explanatory, to enhance UX experience I have included a feature where the active site page button title name is underlined 
 to inform user of what page he is on.
 
 ## Skeleton
@@ -149,7 +149,7 @@ icon.
 
 * Live page: The page layout sections videos are stacked below each other, below this is paragraph text and below this is footer social icons.
 
-* Testimonial page: The page layout sections are organized stacked below each other (section site rating, customer review scroll section,Image,footer social icons. 
+* Testimonial page: The page layout sections are organized stacked below each other (section site rating, customer review scrollbar section,Image,footer social icons). 
 * Contact page: The page layout sections are organized stacked below each other (sections Booking form,Image,footer social icons)
 
 <br> <br>Mobile Home View: 
@@ -178,7 +178,7 @@ if visitor to site is interested in booking the band.
 
 * Testimonial Page – This page list customer testimonials who have booked the band for
 functions or have seen the band<br> at live venues. The page broken into section and articles 
-outlining each customers testimonials.
+outlining each customers testimonials in a customer review scrollbar section.
 ![Testimonial_page](https://user-images.githubusercontent.com/75915440/117479730-95caa280-af58-11eb-8fca-3e2b0cfa6cf5.png)
 
 * Contact Page –  Is a web form so visitors to the site can book the band for a function 
@@ -217,8 +217,7 @@ Testing was done manually by me and also by members of my family.
 * Links (Internal & External): <br>
   Each of the links when clicked have been checked so that the user is directed to the desired location. 
 
-The following bug was found early on
-Issue:<br>
+The following bug was found early on:<br>
 There was an issue in the Social Media Links  - 1 out of the 4 social media were clickable
 this is part of an un-ordered<br> list Item where each social media name showing would be clickable
 this bug appeared in initial commit
@@ -335,7 +334,8 @@ I could not get the site to render propery on Microsoft Go. I had no joy finding
    
   * "I would like to find out the about the band and what styles of music they play."
    
-     The site Home page provides Biography of the band. The live page provides live sample of different styles of music.
+     The site Home page provides biography of the band, providing background information on the band. The live page provides live sample 
+     of different styles of music.
 
   * "As someone who is new to the band I would to sample some of their music."
 
@@ -401,7 +401,7 @@ The live link can be found here: https://djmolloy57.github.io/Project1-Band-site
 
 
 # Feature would like:
-Features we would like is a Store page where merchandise such as music and cloths(eg band t-shirts) can 
+A feature I would like is a Store page where merchandise such as music and clothes(eg band t-shirts) can 
 be purchased.<br> Discussed with Mentor he says to leave it out as not needed for this project.
 
 # Credits
