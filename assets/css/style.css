@@ -965,5 +965,8 @@ form label {
   .bio {
       padding-left: 50px;
   }
+  .bio h4{
+      color: green;
+   }
 
 }
