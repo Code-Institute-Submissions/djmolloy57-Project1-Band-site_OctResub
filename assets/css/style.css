@@ -951,7 +951,7 @@ form label {
      padding-left: 10px;
   }
 }
-/* media query to fix microsoft surface Go and lenovo duet chromebook tablet landscape view*/
+/* media query to fix microsoft surface Go and lenovo duet chromebook tablet landscape view didnt work
 @media screen and (min-width: 1800px){
 
   .band_pic img{
@@ -966,4 +966,4 @@ form label {
       padding-left: 50px;
   }
 
-}
+}*/
