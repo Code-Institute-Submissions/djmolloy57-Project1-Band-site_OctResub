@@ -17,16 +17,16 @@
             <input type="checkbox" id="toggle" />
             <ul id="menu">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a aria-label="Home Page Button" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="live.html">Live Samples</a>
+                    <a aria-label="Live Samples Page Button" href="live.html">Live Samples</a>
                 </li>
                 <li>
-                    <a href="testimonial.html">Testimonials</a>
+                    <a aria-lable="Testimonial Page Button" href="testimonial.html">Testimonials</a>
                 </li>
                 <li>
-                    <a class="active" aria-label="contact" href="contact.html">Contact</a>
+                    <a class="active" aria-label="Contact Page Button" href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -36,26 +36,26 @@
         <form action="https://formdump.codeinstitute.net/" target="_blank" method="POST">        
 		    <div class="form_fullname">
                 <label for="name_id">Full Name</label>
-                <input type="text" id="name_id" name="name" class="pos_textfield" required />
+                <input type="text" id="name_id" name="name" class="pos_textfield" required aria-label="Full Name Form Field" />
             </div>
 			<div class="form_email">
                 <label for="email_id">Email</label>
-                <input type="email" id="email_id" name="email" class="pos_textfield" required />
+                <input type="email" id="email_id" name="email" class="pos_textfield" required aria-label="Email address Form Field"/>
             </div>
 			<div class="form_date">
                 <label for="date_id">Date of Function</label>
-                <input type="date" id="date_id" name="date" class="pos_textfield" required />
+                <input type="date" id="date_id" name="date" class="pos_textfield" required aria-label="Select Date Form Field"/>
             </div>
 		    <div class="form_textarea">
                 <label for="textbox_id">Any special Requirements:</label>
                 <br>
-                <textarea id="textbox_id" rows="5" cols="35" name="spec_req"></textarea>
+                <textarea id="textbox_id" rows="5" cols="35" name="spec_req" aria-label="Special Requirement Text Area Form Field"></textarea>
             </div>
             <div>
-                <input type="submit" name="submit" value="submit" />
+                <input type="submit" name="submit" value="submit" aria-label="Submit Form Button"/>
             </div>
             <div>
-                <input type="reset" name="reset" value="reset" />
+                <input type="reset" name="reset" value="reset" aria-label="Reset Form Button"/>
             </div>
 		</form>
     </section>
