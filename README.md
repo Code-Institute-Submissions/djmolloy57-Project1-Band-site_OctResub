@@ -325,7 +325,7 @@ I have tested the websites in the following browsers
 
 ## Remaining issues:
 
-I could not get the site to render propery on Microsoft Go. I had no joy finding the relevant media query for it online.
+I could not get the site to render properly on Microsoft Go. I had no joy finding the relevant media query for it online.
 
 ## Testing User Stories
 
@@ -410,6 +410,12 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
      * The electric guitar image on the Home page is by Suvan Chowdhury
      * The picture of band on stage in Testimonial page is by Thibault Trillet
      * The crowd hands image in Contact page is by Mark Angelo
+
+  * The youtube sample videos are from the 70s band 'The Band' documentary the 'Last Waltz' songs are:
+     * The Weight - performed by The Band
+     * Who do you love - performed by Ronnie Hawkins with The Band.
+     * Such a night - performed by Dr John with The Band.
+     * Caravan - performed by Van Morrison with The Band.
     
    
 ## Acknowledgements
