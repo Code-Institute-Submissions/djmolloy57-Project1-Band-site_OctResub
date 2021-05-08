@@ -394,15 +394,12 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
 
 # Credits
 ## Media
-  * The photos used on: 
-    * Testimonial Page – you are what you listen to image<br>
-      Sourced from : https://medium.com/the-post-grad-survival-guide/you-are-what-you-listen-to-but-what-if-you-change-the-song-accb18740f2b
- 
-    * Contact Page - Flaming Guitar<br>
-      Sourced from : https://media.istockphoto.com/photos/guitar-on-fire-with-black-background-picture-id147712563?k=6&m=147712563&s=612x612&w=0&h=crIy_S-juGaAMNr9SDOnJKqi20dvP3xnDvVnhZOKFCA=
-
+  * The photos used in this site were obtained from https://pexels.com
+     * The electric guitar image on the Home page is by Suvan Chowdhury
+     * The picture of band on stage in Testimonial page is by Thibault Trillet
+     * The crowd hands image in Contact page is by Mark Angelo
     
-
+   
 ## Acknowledgements
 
    * Home Page gig guide was taken from the following youtube video https://www.youtube.com/watch?v=iOrJ63dQ9eE 
@@ -413,5 +410,10 @@ be purchased.<br> Discussed with Mentor he says to leave it out as not needed fo
    * For the Mobile phone Burger menu I drew inspiration from the following site https://www.youtube.com/watch?v=xMTs8tAapnQ 
 
    * I used the Love Running code institute form dump endpoint for my booking form in the Contact Page. 
+   
+   * My Mentor, Nishant Kumar, for his help and advice throughout this project.
+   
+
+
     
 
