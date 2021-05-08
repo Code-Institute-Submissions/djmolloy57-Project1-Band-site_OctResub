@@ -313,9 +313,6 @@ I have tested the website on various device
   *  Samsung A10 – 10 inch Tablet  works in (works in landscape mode)  
   *  Asus ZenPad 8.0 inch z380 1280 x 800px (works in landscape mode)
 
-* Chrome book Tablet:
-  * Lenovo Duet Chrome Table (works in portrait mode)
-
 * Mac OSX :
   * 2016 Mac Book Pro  
 
