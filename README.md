@@ -388,7 +388,7 @@ From the source section drop-down menu, select the Master Branch.<br>
 Once the master branch has been selected, the page will be automatically refreshed<br> 
 with a detailed ribbon  display to indicate the successful deployment.<br>
 
-The live link can be found here: https://djmolloy57.github.io/Project1-Band-site/testimonial.htm
+The live link can be found here: https://djmolloy57.github.io/Project1-Band-site/
 
 
 # Feature would like:
