@@ -11,7 +11,6 @@ corporate events.
 ## Table of Contents
 > - [Description](#description)
 > - [Ux](#ux)
-> - [User Stories](#user-stories)
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
 > - [Testing](#testing)
@@ -49,7 +48,7 @@ events through the sites Contact page.<br>
 
 The site is easy to navigate and is made up of multiple web pages.
 
-# User Stories
+## User Stories
 * As a First Time Visitor : <br>
    
   * "I would like to find out the about the band and what styles of music they play."
