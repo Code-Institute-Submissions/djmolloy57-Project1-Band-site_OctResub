@@ -951,8 +951,8 @@ form label {
      padding-left: 10px;
   }
 }
-/* media query to fix microsoft surface Go and lenovo duet chromebook tablet landscape view didnt work
-@media screen and (min-width: 1800px){
+/* media query to Macbook Pro 2014 */
+@media screen and (min-width: 1600px){
 
   .band_pic img{
       max-height: 200px;
@@ -966,4 +966,4 @@ form label {
       padding-left: 50px;
   }
 
-}*/
+}
