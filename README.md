@@ -392,10 +392,13 @@ My project GitHub repository can be found here: https://github.com/djmolloy57/Pr
 The site was deployed to GitHub pages.<br> 
 
 Steps to deploy are as follows:<br>
-In the GitHub repository, navigate to the Settings tab<br>
-From the source section drop-down menu, select the Master Branch.<br> 
-Once the master branch has been selected, the page will be automatically refreshed<br> 
+* In the GitHub repository, navigate to the Settings tab<br>
+* From the source section drop-down menu, select the Master Branch.<br> 
+* Once the master branch has been selected, the page will be automatically refreshed<br> 
 with a detailed ribbon  display to indicate the successful deployment.<br>
+
+To run it on your local machine you can select "clone" which provides an URL you can use to open in the Github Desktop app
+or you can select "download" which downloads the repository zip files on to the local machine.
 
 The live link can be found here: https://djmolloy57.github.io/Project1-Band-site/
 
