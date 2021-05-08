@@ -387,7 +387,8 @@ CSS
 
 # Deployment
 Local git repository was initated in the begining of this project, gitpod and IDE  was used to write the code for this project and regular commits 
-were done throughout the site development and were pushed to remote repository on https://github.com
+were done throughout the site development and were pushed to remote repository on https://github.com<br>
+My project GitHub repository can be found here: https://github.com/djmolloy57/Project1-Band-site/ <br>
 
 The site was deployed to GitHub pages.<br> 
 
