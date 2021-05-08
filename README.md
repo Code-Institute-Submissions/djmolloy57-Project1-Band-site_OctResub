@@ -376,6 +376,9 @@ HTML
 
    Testimonial page url was checked - no errors:<br>
    ![HTML_w3c_validator_Testimonial_Page_resized](https://user-images.githubusercontent.com/75915440/117532362-17651380-afdf-11eb-8212-433cf8caa312.png)
+   
+   Contact page url was checked - no errors:<br>
+   ![HTML_w3c_validated_Contact_Page_resized](https://user-images.githubusercontent.com/75915440/117532442-788ce700-afdf-11eb-8401-2fd4db6b7fa4.png)
      
 CSS
   * No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/" target="_blank" >(Jigsaw) validator</a>
