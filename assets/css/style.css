@@ -890,6 +890,128 @@ form label {
   }
 
 }
+/* ipad Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    nav ul {
+
+      float: right;
+      display: inline-block;
+    }
+
+
+    nav ul li {
+
+          display: inline-block;
+          text-align: center;
+          margin-right: 5px;
+          width: 50px;
+          height: 8px;
+          margin-top: 10px;
+          background-color: grey;
+    }
+    .burger_menu{
+        display: none;
+    }
+
+    .band_pic img{
+
+        width: 45%;
+        height: 45%;
+        float: left;
+        margin-left: 20px;
+        margin-right: 0;
+
+    }
+     .bio {
+        float: right;
+
+        max-width: 40%;
+        margin-top: 1px;
+        padding-top: 5px;
+        padding-left: 5px;
+        margin-left: 5px;
+   
+        margin-right: 55px;
+    }
+    .bio h4{
+      font-size: 130%;
+    }
+    .bio p{
+      font-size: 110%;
+    }
+    .bio span{
+      font-size: 110%;
+    }
+
+
+    .gig-wrapper{
+       clear: both;
+       margin-top: 50px;
+       padding-top:  50px;
+       padding-bottom: 40px;
+       padding-left: 510px;
+   }
+
+   .gig-wrapper h3{
+      font-size: 110%;
+   }
+   .gig span{
+       font-size: 110%;
+   }
+   .ToFindOut > p{
+     margin-left: 10px;
+   }
+
+
+   iframe {
+      width: 240px;
+      height: 200px;
+  }
+  .position-videolist
+  {
+      margin-top: 70px;
+      padding-left: 80px;
+      width: 900px;
+  }
+  .item-video{
+      display: inline;
+  }
+  .ToFindOut p {
+    padding-left: 120px;
+
+    margin-left: 120px;
+
+    font-size: 100%;
+  }
+  .pos-bookingform {
+    float: left;
+    margin-left: 90px;
+ }
+ .basepic img {
+   float: right;
+   margin-right: 80px;
+   max-width: 360px;
+   max-height: 360px;
+ }
+ #page_footer{
+   background-color: grey;
+   margin-bottom: 2px;
+   max-height: 300px;
+   height: 50px;
+   width: 100%;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+ }
+
+
+}
 
 /* Media query Android 8inch Tablet Asus ZenPad z380 1280 x 800 IPS */
 @media screen and (min-width: 800px) and (max-width: 1280px){
@@ -903,7 +1025,7 @@ form label {
       margin-left: 10px;
     }
    .bio {
-      margin-left: 10px;
+      margin-left: 50px;
     }
 }
 
