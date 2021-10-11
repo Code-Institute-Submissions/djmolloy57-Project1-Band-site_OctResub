@@ -610,7 +610,7 @@ form label {
     margin-right: 55px;
    }
    .bio h4{
-    font-size: 100%; /*!important;*/
+    font-size: 100%;
    }
    .bio p{
     font-size: 80%; /* !important;*/
@@ -618,6 +618,10 @@ form label {
   .bio span{
     font-size: 80%; /* !important;*/
   }
+  .home_pg_testimonial{
+      display: none;
+  }
+  
   .gig{
      
    }
