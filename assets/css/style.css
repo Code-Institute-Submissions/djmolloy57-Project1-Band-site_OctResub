@@ -527,6 +527,192 @@ form label {
   }
 
 }
+ /* iphone 6,7,8 Landscape */
+
+ @media only screen
+ and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: landscape) {
+
+
+
+   label.logo{
+       width: 100px;
+       font-size: 80%;
+       margin-left: 20px;
+       line-height: 12px;
+       position: absolute;
+       top: 20px;
+       font-weight: bold;
+   }
+   #menu{
+     margin-right: 0;
+     margin-left: 250px;
+   }
+     
+   nav ul {
+
+     text-align: right;
+     display: inline-block;
+   }
+  
+   nav ul > li {
+         
+         display: inline-block;
+         text-align: center;
+         margin-right: 5px;
+         width: 50px;
+         height: 8px;
+         margin-top: 10px;
+         /*background-color: grey;*/
+   }
+
+       nav li > a {
+             font-size: 59%;
+             margin-bottom: 5px;
+             height: 40px;
+             letter-spacing: 2px;
+       }
+
+   #menu{
+       width: 400px;
+   }
+   .burger_menu{
+       display: none;
+   }
+   .band_pic img{
+       
+       width: 50%;
+       height: 50%;
+
+       float: left;
+       margin-left: 20px;
+       margin-right: 0;
+
+   }
+   .bio {
+    float: right;
+
+    max-width: 40%;
+    margin-top: 1px; /* !important;*/
+    padding-top: 5px; /* !important;*/
+    padding-left: 5px;
+    margin-left: 5px;
+
+    margin-right: 55px;
+   }
+   .bio h4{
+    font-size: 100%; /*!important;*/
+   }
+   .bio p{
+    font-size: 80%; /* !important;*/
+  }
+  .bio span{
+    font-size: 80%; /* !important;*/
+  }
+  .gig{
+     
+   }
+
+  .gig-wrapper > h3{
+     font-size: 80%; /* !important;*/
+  }
+  .gig span{
+      font-size: 80%; /*!important;*/
+  }
+
+  .position-videolist{
+
+    position: absolute;
+
+    right: 1px;
+    margin-left: 20px;
+
+  }
+
+  #video-list{
+    /*width: 1000px;*/
+    width: 600px;
+    margin-left: 20px;
+    padding-left: 5px;
+    margin-right: 1px;
+    padding-left: 1px;
+  }
+  .ToFindOut{
+    display: none;
+  }
+
+  iframe{
+    width: 155px; /* !important;*/
+    height: 95px; /* !important;*/
+
+  }
+  .home_pg_testimonial{
+    display: none;
+  }
+
+  .gig-wrapper{
+     padding-top: 1px;
+     /*padding-left: 195px;*/
+     margin-left: 330px;
+     clear: both;
+     padding-bottom: 50px;
+  }
+
+  iframe {
+     width: 200px;
+ }
+ .position-videolist
+ {
+     padding-left: 100px;
+     /*padding-right: 120px;*/
+ }
+ .item-video{
+     display: inline;
+ }
+ .ToFindOut p {
+   padding-left: 60px;
+
+   margin-left: 50px;
+
+   font-size: 50%;
+ }
+ .test_title{
+   color: black;
+   margin-left: 70px;
+   margin-left: 30px; /* !important;*/
+ }
+
+ .star-wrapper-pos{
+   display: none;
+ }
+ .review_container_pos{
+   width: 550px;  /*!important;*/
+   margin-left: 10px; /*!important;*/
+ }
+ .pos-bookingform {
+   max-width: 50%; /*!important;*/
+   float: left;
+   margin-left: 40px;
+}
+.basepic img {
+  float: right;
+  margin-right: 30px;
+  max-width: 260px;
+  max-height: 260px;
+}
+#page_footer{
+  background-color: grey;
+  margin-bottom: 2px;
+  max-height: 300px;
+  height: 30px; /*!important;*/
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+}
 
 /* Media query Ipad view  */
 @media screen and (min-width: 768px) and (max-width: 1024px){
