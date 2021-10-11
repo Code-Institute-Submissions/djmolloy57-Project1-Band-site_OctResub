@@ -880,14 +880,27 @@ form label {
    /* Footer Page Styling   */
     footer{
        clear: both;
-   }
-   footer ul > li{
-       display: inline-block;
-       margin-right: 50px;
-   }
-   footer ul >li i{
-       font-size: 120%;
-   }
+   } 
+   #page_footer{
+    background-color: black;
+    margin-bottom: 2px;
+    max-height: 300px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  footer ul > li{
+      display: inline-block;
+      margin-right: 50px;
+  }
+  footer ul >li i{
+      font-size: 120%;
+      color: white;
+  }
+
 
     /* Testimonial Page Styling  */   
     .star-wrapper-pos{
