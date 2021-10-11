@@ -403,16 +403,51 @@ form label {
 /* Media query Iphone 6/7/8 view  */
 @media screen and (min-width: 375px) and (max-width: 667px){
 
+    
+    label.logo{
+        color: black;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        margin-bottom: 10px;
+        margin-left: 70px;
+    
+      }
+
+      nav li {
+        background-color: maroon;
+        width: 100%;
+        color: var(--white);
+        padding: 14px;
+        text-align:  center;
+        transition: background-color 0.2s;
+  
+  
+    }
+
+    nav ul {
+
+
+        margin-top: 60px; 
+        margin-bottom: 20px;
+      
+  
+    }
+
   .position_header_title {
       width: 360px;
-  }
-  nav ul {
-      width: 375px;
-  }
+   }
+  
+   
   .burger_menu {
       margin: 0px 38px 35px 35px;
   }
   .band_pic{
+      margin-top: 70px;
+
       margin-left: 30px;
   }
   .bio {
@@ -443,9 +478,23 @@ form label {
   .ToFindOut p{
     overflow-wrap: break-word;
   }
+
+  .position-videolist{
+     margin-top: 100px;
+  }
+
   .star-wrapper-pos{
+        margin-top: 100px;
+
         margin-left: 53px; 
   }
+
+  /*.star-wrapper-pos{
+    display: inline-block;
+    margin-left: 25px;
+     width: 228px;
+  }*/
+
   .test_title{
       margin-left: 52px;
   }
@@ -457,7 +506,8 @@ form label {
      margin-left: 40px;
  }
  .pos-bookingform {
-     margin-top: 20px;
+
+     margin-top: 100px;
      margin-left: 45px;
  }
  .basepic {
@@ -692,6 +742,19 @@ form label {
 }
 
 @media screen and (min-width: 1025px){
+
+
+    label.logo{
+          padding-bottom: 10px;
+          color: white;
+          font-size: 30px;
+          line-height: 12px;
+          /*padding: 0 100px;*/
+          font-weight: bold;
+          margin-left: 50px;
+          /*margin-top: 20px;*/
+
+    }
 
     /*Page header Styling  */
     .position_header_title {
