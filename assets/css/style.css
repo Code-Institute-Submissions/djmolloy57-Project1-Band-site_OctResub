@@ -621,7 +621,7 @@ form label {
   .home_pg_testimonial{
       display: none;
   }
-  
+
   .gig{
      
    }
@@ -725,210 +725,169 @@ form label {
 }
 }
 
-/* Media query Ipad view  */
-@media screen and (min-width: 768px) and (max-width: 1024px){
+/*ipad portrait view*/
+@media only screen
+  and (min-device-width: 598px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
 
- /*Page header styling   */
-  .position_header_title {
-        padding: 0;
-        margin: 5px 0px 5px 0px;
-        height: 30px;
-        width: 768px;
-        text-align: center;
-  }
-  header h1{
-        font-size: 180%;
-        padding-top: 5px;
-  }
-
-  /* navigation and menu styling */
-  nav {
-        height: 60px;
-        background-color: var(--black);
-        text-align: left;
-        width: 768px;
-  }
-  nav ul {
-        max-width: 1300px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0px 1px 0px 1px;
-        text-align: right;
-        width: 768px;
-        display: inline-block;
-  }
-  nav ul > li {
-        display: inline-block; 
-        text-align: center;
-        margin-right: 5px;
-        width: 75px;
-        height: 15px;
-        padding-top: 8px;
-  }
-  nav li > a {
-        padding-left: 0px;
-        margin-left: 0px;
-        font-size: 70%;
-  }
-  .burger_menu{
-        display: none;
-  }
-  img{
-        max-width: 120%;
-        max-height: 120%;
-  }
-
-  /*Home Page styling   */
-  .band_pic img{
-        float: left;
-        width: 20%;
-        padding-left: 45px;
-        height: 200px;
+    label.logo{
         width: 200px;
-        object-fit: cover;
-        padding-right: 10px;
-        padding-top: 20px;
-        padding-bottom: 1px;
-        margin-bottom: 1px;
-  }
-   .bio {
+        font-size: 100%;
+        margin-left: 70px;
+        line-height: 12px;
+        position: absolute;
+        top: 35px;
+        font-weight: bold;
+    }
+    #menu{
+      margin-right: 0;
+      margin-left: 350px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+    nav{
+       margin-bottom: 5px;
+       
+    }
+ 
+      
+    nav ul {
+ 
+      text-align: right;
+      display: inline-block;
+    }
+
+
+    nav ul li {
+
+          display: inline-block;
+          text-align: center;
+          margin-right: 5px;
+          width: 50px;
+          height: 8px;
+          margin-top: 10px;
+          background-color: grey;
+    }
+    .burger_menu{
+        display: none;
+    }
+   .band_pic img{
+        max-width: 80%;
+        max-height: 80%;
+        /*display: block;*/
+        /*margin-top: 40px;*/
         float: left;
-        width: 40%;
-        padding-left: 80px;
-        padding-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 80px;
+
+    }
+    .bio {
+        float: right;
+        width: 550px;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-right: 130px;
+        margin-bottom: 10px;
+    }
+    .gig-wrapper{
+       /*padding-top: 1px;
+       padding-left: 195px;*/
+       clear: both;
+       padding-bottom: 50px;
+       margin-left: 50px;
    }
    .bio h4{
-        font-size: 95%;
+     font-size: 110%;
    }
-   .bio p {
-        font-size: 80%;
-        margin-bottom: 10px;
+   .bio p{
+     font-size: 110%;
    }
    .bio span{
-        font-size: 80%;
+     font-size: 110%;
    }
-   .gig div > span {
-        font-size: 70%;
-   }
-   .gig-wrapper {
-        display: inline-block;
-        padding-left: 10%;
-        margin: 0;
-        border: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 50px;
-   }
+
    .gig-wrapper h3{
-        font-size: 80%;
-        margin-top: 0px;
-        height: 15px;
-        padding-left: 10px;
+      font-size: 80% !important;
    }
-   .gig {
-        margin-top: 1px;
-        margin-bottom: 20px; 
+   .gig span{
+       font-size: 80% !important;
    }
 
-   /* Live Sample Page styling */
    iframe {
-        height: 100%;
-        width: 35%;
-   }
-   .position-videolist
-   {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 30px; 
-    }
-    .item-video{
-        display: inline;
-    }
-   .ToFindOut{
-        padding-left: 40px;
-        padding-bottom: 20px;
-    }
-   .ToFindOut p {
-        padding-left: 70px;
-        font-size: 70%;
-    }
-
-   /* Testimonial Page Styling */
-   .star-wrapper-pos{
-        margin-top: 50px;
-        margin-left: 70px;
-   }
-   .star-section h5{
-        font-size: 70%;
-   }
-   .star-section ol{
-        font-size: 70%;
-   }
-   .test_title {
-        margin-left: 70px;
-        width: 630px;
+      width: 650px;
+      height: 400px;
   }
-   .review_container_pos{
-        float: left;
-        padding-left: 10px;
-        margin-left: 70px;
-        width: 370px;
-        margin-bottom: 20px;
-    }
-   .user_review{
-        margin-left: 2px;
-   }
-    .testpic{
-        width: 330px;
-        height: 330px;
-        float: left;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-bottom: 0px;
-    }
+  .position-videolist
+  {
+      padding-left: 10px;
+      /*padding-right: 120px;*/
+  }
+  .item-video{
+      display: inline;
+  }
+  .ToFindOut p {
+    padding-left: 120px;
 
-    /* Contact Page Styling*/
-    .pos-bookingform {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 80px;
-        width: 300px;
-        height: 350px;
-        padding-left: 10px;
-        padding-top: 10px;
-        float: left;
-   }
-    .basepic{
-        float: left;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 0px;       
-    }
-    .basepic img{
-        max-width: 250px;
-        max-height: 250px;
-    }
+    margin-left: 120px;
 
+    font-size: 100%;
+  }
+  .test_title{
+      /*float: left*/
+      margin-top: 60px;
+      margin-left: 70px;
+      color: black;
+  }
+  .review_container_pos{
+      /*float: left;*/
+      margin-left: 50px;
+      width: 650px;
+      height: 800px;
 
-    /* Footer Page Styling  */
-    footer{
-        clear: both;
-        padding-top: 1px;
-        margin-top: 1px;
-   }
-   footer ul > li{
-        display: inline-block;
-        margin-right: 50px;
-   }
-   footer ul >li i{
-        font-size: 100%;
-   }
-   
+      border-style: solid;
+      border-color: black !important;
+  }
+  .testpic{
+     /*float: right;
+     margin-right: 150px;*/
+
+     display: none;
+     /*padding-left: 50px;*/
+  }
+  .pos-bookingform {
+    /*max-width: 50% !important;*/
+    /*float: left;*/
+    margin-left: 90px;
+    width: 550px;
+    height: 700px;
+ }
+ .basepic img {
+   /*float: right;*/
+
+   /*margin-right: 10px;
+   max-width: 260px;
+   max-height: 260px;*/
+
+   display: none;
+
+   /*display: none;*/
+ }
+
+  footer{
+     clear: both;
+  }
+  #page_footer{
+    background-color: grey;
+    margin-bottom: 2px;
+    max-height: 300px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
 
 }
 
