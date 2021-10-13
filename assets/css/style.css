@@ -1148,20 +1148,19 @@ form label {
     /* Live Samples Page Styling  */
     iframe {
        width: 360px;
+       margin-top: 40px;
    }
    .position-videolist
    {
-       padding-left: 220px;
-       padding-right: 220px;
+
+       padding-left: 150px;
+       padding-right: 150px;
    }
    .item-video{
        display: inline;
    }
-   .ToFindOut p {
-     padding-left: 150px;
-
-     margin-left: 200px;
-
+   .ToFindOut p{    
+     margin-left: 165px !important; /* added important as my rule is being ignored */
      font-size: 100%;
    }
 
