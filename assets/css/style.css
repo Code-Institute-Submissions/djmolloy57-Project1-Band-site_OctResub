@@ -588,7 +588,8 @@ input[type=reset]{
      margin-top: 10px;
    }
    nav{
-      margin-bottom: 5px;
+      margin-bottom: 5px !important;
+      
       
    }
 
