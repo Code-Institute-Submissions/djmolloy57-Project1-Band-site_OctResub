@@ -578,7 +578,7 @@ input[type=reset]{
     background-color: grey;
     margin-bottom: 2px;
     max-height: 300px;
-    height: 40px;
+    height: 30px !important;
     width: 100%;
     position: fixed;
     left: 0;
