@@ -448,10 +448,18 @@ form label {
   .band_pic{
       margin-top: 70px;
 
-      margin-left: 30px;
+      margin-left: 0px;
+      padding-left: 0px;
+  }
+  .band_pic img{
+    max-width: 80%;
+    max-height: 80%;
   }
   .bio {
-      margin-left: 70px;
+      /*margin-left: 70px;*/
+      margin-left: 40px;
+      padding-left: 0px;
+
   }
   .bio h4{
       font-size: 85%;
@@ -459,12 +467,19 @@ form label {
   }
   .bio p {
       font-size: 75%;
+      width: 130%;
   }
   .bio span{
       font-size: 75%;
   }
+  .home_pg_testimonial{
+    display: none;
+  }
+
   .gig-wrapper {
-     padding-left: 70px;
+    /* padding-left: 70px;*/
+    margin-left: 40px;
+    padding-left: 0px;
   }
   .gig-wrapper h3{
     font-size: 70%;
@@ -481,6 +496,13 @@ form label {
 
   .position-videolist{
      margin-top: 100px;
+  }
+  .item-video{
+    padding-left: 5px;
+
+  }
+  iframe{
+    width: 340px;
   }
 
   .star-wrapper-pos{
