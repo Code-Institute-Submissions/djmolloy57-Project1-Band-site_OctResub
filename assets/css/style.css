@@ -531,7 +531,11 @@ form label {
 
   width: 325px;
   height: 400px;
+ 
 
+}
+.star-section{
+  padding-bottom: 15px;
 }
 
  .testpic {
@@ -755,6 +759,10 @@ input[type=reset]{
  .review_container_pos{
    width: 550px;  /*!important;*/
    margin-left: 10px; /*!important;*/
+ }
+ .testpic{
+   display: none;
+
  }
  .pos-bookingform {
    max-width: 50%; /*!important;*/
