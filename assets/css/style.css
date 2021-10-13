@@ -202,6 +202,8 @@ footer ul >li i{
     max-width: 1020px;
     margin: 0px auto; 
     margin-top: 10px;
+
+    padding-bottom: 20px;
  }
  .star-section h5{
     color: var(--white);
@@ -1274,6 +1276,7 @@ input[type=reset]{
        margin-top: 15px;
 
        margin-left: 100px;
+
        
    }
    .star-section h5{
