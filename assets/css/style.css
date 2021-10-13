@@ -8,7 +8,7 @@
     border:0;
 }
 body { 
-    background-color: grey;
+    /*background-color: grey;*/
     color: var(--black);
     font-size: 16px;
     font-family: Arial, Helvectica, sans-serif;
@@ -41,6 +41,7 @@ header h1 {
 nav {
     width: 320px;
     border-bottom: 10px;
+    
 }
 nav ul {
     width: 352px;
@@ -48,9 +49,10 @@ nav ul {
     text-align: center;
     text-decoration: none;
     display: none;
+   
 }
 nav li { 
-    background-color: var(--maroon);
+    background-color: grey;
     color: var(--white);
     padding: 14px; 
     text-align:  center;
@@ -59,7 +61,7 @@ nav li {
 }
 nav li > a{ 
     text-decoration: none;
-    color: var(--white);
+    color: white;
     font-size: 15px;
 }
 nav ul li:hover {
@@ -78,7 +80,7 @@ nav ul li:hover {
     cursor: pointer;
     top: 20px;
     right: 0;
-    color: var(--white);
+    color: black;
 }
 #toggle:checked + #menu {
     display: block;
@@ -186,13 +188,17 @@ footer ul >li i{
     padding: 20%;
     color: var(--black);
 }
+#page_footer{
+  background-color: grey;
+}
 
 /* Testimonial Page Styling */
 .star-wrapper-pos{ 
     width: 170px; 
     height: 90px; 
     padding: 1px 50px 0 50px; 
-    background-color: var(--maroon);
+    /*background-color: var(--maroon);*/
+    background-color: grey;
     max-width: 1020px;
     margin: 0px auto; 
     margin-top: 10px;
@@ -220,7 +226,8 @@ footer ul >li i{
     width: 250px;
 }
 .test_title{
-    background-color: var(--maroon);
+    /*background-color: var(--maroon);*/
+    /*background-color: grey;*/
     color: var(--white);
     font-size: 90%;
     max-width: 1020px;
@@ -398,6 +405,9 @@ form label {
     .star-wrapper-pos{
         margin-left: 25px; 
     }
+    #page_footer{
+      background-color: grey;
+    }
 }
 
 /* Media query Iphone 6/7/8 view  */
@@ -416,9 +426,10 @@ form label {
         margin-left: 70px;
     
       }
+     
 
       nav li {
-        background-color: maroon;
+        background-color: grey;
         width: 100%;
         color: var(--white);
         padding: 14px;
@@ -433,7 +444,7 @@ form label {
 
         margin-top: 60px; 
         margin-bottom: 20px;
-      
+        
   
     }
 
@@ -766,6 +777,10 @@ input[type=reset]{
   left: 0;
   bottom: 0;
 }
+#page_footer{
+  background-color: grey;
+}
+
 }
 
 /*ipad portrait view*/
@@ -931,6 +946,9 @@ input[type=reset]{
     left: 0;
     bottom: 0;
   }
+  #page_footer{
+    background-color: grey;
+  }
 
 }
 /* ipad Landscape */
@@ -1052,6 +1070,9 @@ input[type=reset]{
    left: 0;
    bottom: 0;
  }
+ #page_footer{
+  background-color: grey;
+}
 
 
 }
@@ -1069,6 +1090,9 @@ input[type=reset]{
     }
    .bio {
       margin-left: 50px;
+    }
+    #page_footer{
+      background-color: grey;
     }
 }
 
@@ -1212,7 +1236,7 @@ input[type=reset]{
        clear: both;
    } 
    #page_footer{
-    background-color: black;
+    background-color: grey;
     margin-bottom: 2px;
     max-height: 300px;
     height: 50px;
@@ -1228,7 +1252,7 @@ input[type=reset]{
   }
   footer ul >li i{
       font-size: 120%;
-      color: white;
+      color:black;
   }
 
 
