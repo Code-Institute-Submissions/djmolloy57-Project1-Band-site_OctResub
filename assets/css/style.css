@@ -504,17 +504,31 @@ form label {
  .testpic {
      padding-top: 20px;
      margin-left: 40px;
- }
- .pos-bookingform {
+ } 
+ .pos-bookingform{
+  margin-top: 100px;
 
-     margin-top: 100px;
-     margin-left: 45px;
- }
- .basepic {
-     margin-top: 20px;
-     margin-left: 35px;
-     margin-bottom: 20px;
- }
+  width: 298px;
+  height: 418px;
+}
+input[type=text],input[type=email],input[type=date],textarea{
+ width: 270px;
+}
+#textbox_id{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+input[type=submit]{
+  margin-left: 40px;
+}
+input[type=reset]{
+  background-color: orange;
+}
+.basepic{
+  display: none;
+}
+
  #page_footer{
     background-color: grey;
     margin-bottom: 2px;
