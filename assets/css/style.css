@@ -695,8 +695,8 @@ input[type=reset]{
   }
 
   iframe{
-    width: 330px; /* !important;*/
-    height: 230px; /* !important;*/
+    width: 330px !important;
+    height: 230px !important;
 
   }
   .home_pg_testimonial{
