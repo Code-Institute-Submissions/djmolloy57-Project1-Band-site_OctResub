@@ -1122,19 +1122,19 @@ form label {
     font-size: 100%;
     } 
     .band_pic img{
-        float: left;
-        max-height: 400px;
-        max-width: 400px;
-        padding-left: 160px;
+        float: left;    
+        max-width: 550px !important; /*added important because without it my rule is being ignored */
+        max-height: 550px !important; /*added important because without it my rule is being ignored */
+        padding-left: 70px;
         object-fit: cover;
         border-right: 10px;
         padding-bottom: 50px;
-        padding-right: 75px;
+        padding-right: 20px;
         margin-top: 55px;
     }
     .gig-wrapper{
-       padding-top: 1px;
-       padding-left: 195px;
+       padding-top: 0px;
+       margin-left: 785px;
        clear: both;
        padding-bottom: 50px;
    }
