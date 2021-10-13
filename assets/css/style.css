@@ -486,21 +486,21 @@ form label {
   .star-wrapper-pos{
         margin-top: 100px;
 
-        margin-left: 53px; 
+        margin-left: 25px; 
   }
 
-  /*.star-wrapper-pos{
-    display: inline-block;
-    margin-left: 25px;
-     width: 228px;
-  }*/
 
   .test_title{
-      margin-left: 52px;
+    color: black;
   }
-  .review_container_pos{
-      padding-left: 53px;
- }
+
+ .review_container_pos{
+
+  width: 325px;
+  height: 400px;
+
+}
+
  .testpic {
      padding-top: 20px;
      margin-left: 40px;
@@ -1196,6 +1196,9 @@ form label {
        padding: 5px 20px;
        width: 20%;
        margin-top: 15px;
+
+       margin-left: 100px;
+       
    }
    .star-section h5{
        margin-top: 15px;
@@ -1212,16 +1215,36 @@ form label {
    .test_title{
        padding-top: 10px;
        padding-bottom: 0px;
-       width: 960px;
+
+       /*width: 960px;*/
+       width: 200px;
+       
        height: 25px;
-       padding-left: 20px;
-       margin-left: 270px;       
+       /*padding-left: 20px;
+       margin-left: 270px;*/  
+       
+       padding-left: 0px;
+       margin-left:  100px;
+       margin-right: 0px;
+       color: black;
+       border-style: solid;
+       
    }
    .review_container_pos{
        float: left;
-       width: 590px;
-       padding-left: 270px;
+       /*width: 590px;*/
+       width: 890px;
+
+       height: 410px;
+
+       /*padding-left: 270px;
+       padding-right: 20px;*/
+
+       margin-left:  80px;
+
        padding-right: 20px;
+
+       border-style: solid;
    }
    .user_review {
      padding: 0;
@@ -1235,18 +1258,38 @@ form label {
      padding: 0;
    }
    .testpic{
-       width: 175px;
+       /*width: 175px;
        height: 175px;
        float: left;
        margin-top: 1px;
        margin-bottom: 0px;
        padding-top: 0px;
        padding-left: 30px;
+       padding-bottom: 0px;*/
+
+       padding-left: 30px;
        padding-bottom: 0px;
+       float: left;
+
+       /*margin-left:185px;*/
+
+
+       max-width: 450px;
+       max-height: 500px;
+       padding-top: 5px;
+       margin-top: 5px;
+
+       position: absolute;
+       top: 60px;
+       right: 100px;
+
    }
    .testpic img{
-        max-width: 320px;
-        max-height: 320px;
+        /*max-width: 320px;
+        max-height: 320px;*/
+
+        max-width: 550px;
+        max-height: 550px;
    }
    /*Contact Page Styling  */
    .pos-bookingform {
