@@ -600,7 +600,7 @@ input[type=reset]{
    label.logo{
        width: 100px;
        font-size: 80%;
-       margin-left: 20px;
+       margin-left: 20px !important;
        line-height: 12px;
        position: absolute;
        top: 20px;
@@ -622,17 +622,23 @@ input[type=reset]{
 
      text-align: right;
      display: inline-block;
+     margin-left: 145px !important;
+     width: 500px !important;
+     
    }
   
    nav ul > li {
          
          display: inline-block;
          text-align: center;
-         margin-right: 5px;
-         width: 50px;
-         height: 8px;
-         margin-top: 10px;
+        ;
+         /*width: 50px;*/
+         height: 5px !important;
+         padding-top: 5px;
          /*background-color: grey;*/
+         width: 70px !important;
+
+         
    }
 
        nav li > a {
