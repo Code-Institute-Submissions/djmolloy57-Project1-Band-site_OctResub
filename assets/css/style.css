@@ -401,7 +401,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 }     
 nav li {
     background-color: grey;
-    width: 100%;
+    width: 89%;
     color: var(--white);
     padding: 14px;
     text-align:  center;
@@ -472,7 +472,7 @@ nav ul {
    padding-left: 5px;
 }
 iframe{
-   width: 340px;
+   width: 300px;
 }
 .star-wrapper-pos{
    margin-top: 100px;
@@ -486,14 +486,19 @@ iframe{
    width: 325px;
    height: 400px;
 }
+.user_review > p{
+  font-size: 75%;
+  overflow-wrap: break-word;
+}
+
 .testpic {
-   padding-top: 20px;
-   margin-left: 40px;
+   display: none;
 }  
 .pos-bookingform{
   margin-top: 100px;
-  width: 298px;
-  height: 418px;
+  width: 260px;
+  height: 380px;
+  margin-left: 5px;
 }
 input[type=text],input[type=email],input[type=date],textarea{
   width: 270px;
@@ -621,14 +626,20 @@ iframe{
 }
 .test_title{
    color: black;
+  
 }
 .review_container_pos{
-   width: 325px;
+   width: 320px;
    height: 400px;
+   margin-left: 0px;
+
+}
+.user_review > p{
+  font-size: 65%;
+  overflow-wrap: break-word;
 }
 .testpic {
-   padding-top: 20px;
-   margin-left: 40px;
+   display: none;
 }  
 .pos-bookingform{
   margin-top: 100px;
@@ -767,9 +778,9 @@ input[type=reset]{
      width: 325px;
      height: 400px;
   }
+ 
   .testpic {
-     padding-top: 20px;
-     margin-left: 40px;
+     display: none;
   }  
   .pos-bookingform{
     margin-top: 100px;
