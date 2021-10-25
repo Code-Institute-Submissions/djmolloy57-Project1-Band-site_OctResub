@@ -1387,12 +1387,14 @@ input[type=reset]{
    {
        padding-left: 150px;
        padding-right: 150px;
+
+       margin-top: 10px;
    }
    .item-video{
        display: inline;
    }
    .ToFindOut p{    
-     margin-left: 165px !important; /* added important as my rule is being ignored */
+     margin-left: 135px !important; /* added important as my rule is being ignored */
      font-size: 100%;
    }
    /* Footer Page Styling   */
