@@ -1087,12 +1087,14 @@ input[type=reset]{
 
     label.logo{
         width: 200px;
-        font-size: 100%;
+        font-size: 130%;
         margin-left: 70px;
         line-height: 12px;
         position: absolute;
         top: 35px;
         font-weight: bold;
+
+        
     }
     #menu{
       margin-right: 0;
@@ -1102,23 +1104,42 @@ input[type=reset]{
     }
     nav{
        margin-bottom: 5px;       
-    }      
+    } 
+    #menu{
+      margin-top: 70px;
+      margin-left: 0px;
+    }     
     nav ul {
       text-align: right;
-      display: inline-block;
+
     }
-    nav ul li {
-          display: inline-block;
-          text-align: center;
-          margin-right: 5px;
-          width: 50px;
-          height: 8px;
-          margin-top: 10px;
-          background-color: grey;
-    }
+
+    nav li {
+      background-color: grey;
+      width: 220% !important;
+      color: var(--white);
+      margin-left: 0px;
+      padding: 14px;
+      text-align:  center;
+      transition: background-color 0.2s;
+
+      /*font-size: 20px;*/
+  }
+  nav li > a{
+     
+     font-size: 20px;
+  }
+  nav ul {
+      margin-top: 100px; 
+      margin-bottom: 20px; 
+         
+  }
+    /*
     .burger_menu{
         display: none;
-    }
+    }*/
+
+
    .band_pic img{
         max-width: 80%;
         max-height: 80%;
@@ -1180,7 +1201,7 @@ input[type=reset]{
   .star-wrapper-pos
   {
      margin-left: 70px;
-     margin-top: 20px;
+     margin-top: 120px;
 
      height: 120px;
      width: 250px;
