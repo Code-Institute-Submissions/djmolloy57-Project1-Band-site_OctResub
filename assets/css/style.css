@@ -1010,11 +1010,41 @@ input[type=reset]{
 
   }
   .pos-bookingform {
+
+    margin-top: 1px;
+
     max-width: 50%; /*!important;*/
     float: left;
-    margin-left: 40px;
+    margin-left: 150px !important;
+
+    height: 310px !important;
+    margin-bottom: 40px;
+  }
+
+  input[type=text],input[type=email],input[type=date],textarea{
+    width: 270px;
+    margin-bottom: 5px !important;
+
+  }
+  #textbox_id{
+    margin-left: 0px;
+    padding-left: 0px;
     
   }
+  input[type=submit]{
+    margin-left: 40px;
+    font-size: 60% !important;
+  }
+
+  input[type=reset]{
+    
+    font-size: 60% !important;
+  }
+  .pos-bookingform h3 {
+    text-transform: uppercase;
+  }
+
+
   .basepic img {
     float: right;
     margin-right: 30px;
