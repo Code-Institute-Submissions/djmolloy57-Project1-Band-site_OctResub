@@ -720,8 +720,13 @@ input[type=reset]{
   }
   .bio {
      padding-top: 0px;
-     margin-top: 0px;;
-     margin-left: 40px;
+
+     /*margin-top: 0px;*/
+     margin-top: 20px;
+
+    margin-left: 40px;
+    
+
      padding-left: 0px;
      padding-bottom: 0px;
   }
@@ -741,6 +746,8 @@ input[type=reset]{
     display: none;
   }
   .gig-wrapper {
+
+
     margin-left: 40px;
     padding-left: 0px;
     margin-top: 0px;
@@ -769,7 +776,8 @@ input[type=reset]{
   .star-wrapper-pos{
      margin-top: 100px;
      margin-left: 25px; 
-     padding-bottom: 20px;
+     padding-bottom: 30px;
+     margin-bottom: 20px;
   }
   .test_title{
      color: black;
@@ -807,12 +815,30 @@ input[type=reset]{
     background-color: grey;
     margin-bottom: 2px;
     max-height: 300px;
-    height: 30px !important;
+    height: 50px !important;
     width: 100%;
     position: fixed;
     left: 0;
     bottom: 0;
   }
+  /*footer ul >li i{
+    font-size: 120%;
+    color:black;
+    
+  }*/
+  .star-section h5{
+    font-size: 85%;
+  }
+  .star-section ol{
+    font-size: 90%;
+  }
+  .star-section li{
+    font-size: 90%;
+  }
+  .star-section i{
+      font-size: 90%;
+  }
+
 
 }
  /* iphone 6,7,8 Landscape */
