@@ -1300,6 +1300,8 @@ input[type=reset]{
       text-align: right;
       width: 1535px;
       display: inline-block;
+
+      margin-left: 220px;
     }
     nav ul > li {
           display: inline-block;
