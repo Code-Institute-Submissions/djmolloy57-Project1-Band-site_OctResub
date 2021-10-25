@@ -1330,8 +1330,10 @@ input[type=reset]{
     .bio {
         float: left;
         width: 550px;
-        margin-top: 55px;
-        padding-left: 110px;
+        
+        /*margin-top: 55px;
+        padding-left: 110px;*/
+
     }
     .bio h4{
         margin-bottom: 10px;
@@ -1356,11 +1358,16 @@ input[type=reset]{
         border-right: 10px;
         padding-bottom: 50px;
         padding-right: 20px;
-        margin-top: 55px;
+
+        /*margin-top: 55px;*/
+        margin-top: 0px;
     }
     .gig-wrapper{
        padding-top: 0px;
-       margin-left: 785px;
+      
+       /*margin-left: 785px;*/
+       margin-left: 720px;
+
        clear: both;
        padding-bottom: 50px;
    }
