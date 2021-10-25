@@ -949,10 +949,13 @@ input[type=reset]{
   .position-videolist{
     position: absolute;
     right: 1px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    margin-top: 5px;
   }
   #video-list{    
-    width: 800px;  
+    /*width: 800px; */
+    width: 670px; 
+
     margin-left: 30px !important;
     padding-left: 30px !important;
     margin-right: 0px !important;
