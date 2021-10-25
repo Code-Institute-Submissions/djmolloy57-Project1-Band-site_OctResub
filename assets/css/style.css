@@ -1287,21 +1287,45 @@ input[type=reset]{
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-
+    .logo{
+      font-size: 25px !important;
+      position: absolute;
+      top: 22px !important;
+      left: 0px;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-left: 0px;
+      margin-left: 25px !important;
+    }
     nav ul {
       float: right;
       display: inline-block;
     }
 
-
+    #menu{
+      margin-top: 0px;
+      width: 650px;
+      position: absolute;
+      top: 14px;
+      left: 370px;
+    }
     nav ul li {
           display: inline-block;
           text-align: center;
           margin-right: 5px;
-          width: 50px;
-          height: 8px;
+
+          width: 105px !important;
+          
+          height: 15px;
           margin-top: 10px;
+
+          padding-top: 5px;
+        
           background-color: grey;
+    }
+    ul li > a{
+      /*color: #ebba34;*/
+      
     }
     .burger_menu{
         display: none;
@@ -1313,6 +1337,7 @@ input[type=reset]{
         float: left;
         margin-left: 20px;
         margin-right: 0;
+     
     }
      .bio {
         float: right;
