@@ -855,8 +855,10 @@ input[type=reset]{
        margin-left: 20px !important;
        line-height: 12px;
        position: absolute;
-       top: 20px;
+       top: 12px !important;
        font-weight: bold;
+
+       margin-top: 0px;
    }
    #menu{
      margin-right: 0;
@@ -870,7 +872,9 @@ input[type=reset]{
      text-align: right;
      display: inline-block;
      margin-left: 145px !important;
-     width: 500px !important;     
+     width: 500px !important; 
+
+     margin-top: 15px !important;    
    }
    nav ul > li {        
        display: inline-block;
@@ -881,7 +885,7 @@ input[type=reset]{
    }
 
    nav li > a {
-       font-size: 59%;
+       font-size: 60% !important;
        margin-bottom: 5px;
        height: 40px;
        letter-spacing: 2px;
