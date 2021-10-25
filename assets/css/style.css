@@ -1116,23 +1116,28 @@ input[type=reset]{
     }
     .bio {
         float: right;
-        width: 550px;
+        /*width: 550px;*/
+        width: 450px;
+        margin-right: 235px;
+
         margin-top: 10px;
         padding-left: 10px;
         margin-left: 10px;
-        margin-right: 130px;
+        /*margin-right: 130px;*/
         margin-bottom: 10px;
     }
     .gig-wrapper{
        clear: both;
        padding-bottom: 50px;
-       margin-left: 50px;
+       margin-left: 80px;
+
+       font-size: 22px;
    }
    .bio h4{
-     font-size: 110%;
+     font-size: 140%;
    }
    .bio p{
-     font-size: 110%;
+     font-size: 130%;
    }
    .bio span{
      font-size: 110%;
