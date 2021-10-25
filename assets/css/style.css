@@ -893,12 +893,15 @@ input[type=reset]{
        display: none;
    }
    .band_pic img{     
-       width: 50%;
-       height: 50%;
+       width: 30%;
+       height: 30%;
        float: left;
-       margin-left: 20px;
+       margin-left: 20px !important;
        margin-right: 0;
-       margin-top: 10px;
+       margin-top: 0px;
+
+       position: absolute;
+       top: 90px;
    }
    .bio {
     float: right;
@@ -908,25 +911,41 @@ input[type=reset]{
     padding-left: 5px;
     margin-left: 5px;
     margin-right: 55px;
+
+    position: absolute;
+    left: 250px;
+    top: 70px;
+   
+
    }
    .bio h4{
-    font-size: 100%;
+    font-size: 100% !important;
    }
+ 
    .bio p{
-    font-size: 80%; /* !important;*/
+    font-size: 80% !important;
   }
   .bio span{
-    font-size: 80%; /* !important;*/
+    font-size: 80% !important;
   }
   .home_pg_testimonial{
       display: none;
   }
-  .gig-wrapper > h3{
-     font-size: 80%; /* !important;*/
-  }
-  .gig span{
-      font-size: 80%; /*!important;*/
-  }
+  .gig-wrapper{
+
+    padding-top: 20px !important;
+    margin-left: 330px;
+    clear: both;
+    padding-bottom: 50px;
+
+    position: absolute;
+    bottom: 10px;
+
+    left: 220px;
+
+    font-size: 14px;
+ 
+ }
   .position-videolist{
     position: absolute;
     right: 1px;
@@ -950,13 +969,7 @@ input[type=reset]{
     display: none;
   }
 
-  .gig-wrapper{
-     padding-top: 1px;
-     margin-left: 330px;
-     clear: both;
-     padding-bottom: 50px;
-  }
-
+ 
   iframe {
      width: 200px;
   }
