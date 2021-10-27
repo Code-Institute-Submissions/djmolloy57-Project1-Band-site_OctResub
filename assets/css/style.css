@@ -1552,6 +1552,10 @@ form label {
           line-height: 12px;
           font-weight: bold;
           margin-left: 50px;
+          margin-top: 0px;
+
+          position: absolute;
+          top: 10px;
     }
 
     /*Page header Styling  */
