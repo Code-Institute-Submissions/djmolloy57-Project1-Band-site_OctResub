@@ -1014,34 +1014,29 @@ input[type=reset]{
     margin-left: 0px !important;
   }
 
+
   .user_review p{
     font-size: 80% !important;
   }
-
   .user_review footer {
     font-size: 100%;
   }
-
   .testpic{
     display: none;
-
   }
   .pos-bookingform {
-
     margin-top: 1px;
-
     max-width: 50%; /*!important;*/
     float: left;
     margin-left: 150px !important;
-
-    height: 310px !important;
+    height: 480px !important;
     margin-bottom: 40px;
   }
 
   input[type=text],input[type=email],input[type=date],textarea{
-    width: 270px;
+    width: 335px !important;
     margin-bottom: 5px !important;
-
+    
   }
   #textbox_id{
     margin-left: 0px;
@@ -1049,16 +1044,24 @@ input[type=reset]{
     
   }
   input[type=submit]{
-    margin-left: 40px;
-    font-size: 60% !important;
+    margin-left: 60px !important;
+    font-size: 40% !important;
   }
 
   input[type=reset]{
     
-    font-size: 60% !important;
+    font-size: 40% !important;
   }
+
   .pos-bookingform h3 {
     text-transform: uppercase;
+    font-size: 90% !important;
+    margin-bottom: 5px !important;
+  }
+  form {
+    font-size: 70%;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
   }
 
 
@@ -1259,6 +1262,47 @@ input[type=reset]{
     width: 550px;
     height: 700px;
  }
+/*
+ .pos-bookingform {
+  float: left;
+  margin-left: 220px;
+
+  height: 520px;
+}*/
+
+
+input[type=text],input[type=email],input[type=date],textarea{
+width: 540px;
+margin-bottom: 20px !important;
+
+}
+textarea{
+height: 150px !important;
+}
+#textbox_id{
+margin-left: 0px;
+padding-left: 0px;
+
+}
+input[type=submit]{
+margin-left: 150px;
+font-size: 100% !important;
+}
+
+input[type=reset]{
+
+font-size: 100% !important;
+}
+form label {
+font-size: 90%;
+}
+.pos-bookingform h3 {
+text-transform: uppercase;
+font-size: 130%;
+margin-bottom: 20px;
+}
+
+
 
  .basepic img {
    display: none;
