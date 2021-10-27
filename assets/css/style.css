@@ -1352,12 +1352,12 @@ margin-bottom: 40px;
     .logo{
       font-size: 25px !important;
       position: absolute;
-      top: 22px !important;
+      top: 30px !important;
       left: 0px;
       margin-top: 0px;
       padding-top: 0px;
       padding-left: 0px;
-      margin-left: 25px !important;
+      margin-left: 40px !important;
     }
     nav ul {
       float: right;
