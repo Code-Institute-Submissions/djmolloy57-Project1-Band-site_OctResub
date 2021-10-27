@@ -1259,6 +1259,7 @@ input[type=reset]{
     width: 550px;
     height: 700px;
  }
+
  .basepic img {
    display: none;
  }
@@ -1401,10 +1402,47 @@ input[type=reset]{
 
     font-size: 115%;
   }
+
+
   .pos-bookingform {
     float: left;
-    margin-left: 90px;
+    margin-left: 220px;
+
+    height: 520px;
  }
+ 
+
+input[type=text],input[type=email],input[type=date],textarea{
+  width: 540px;
+  margin-bottom: 20px !important;
+
+}
+textarea{
+  height: 150px !important;
+}
+#textbox_id{
+  margin-left: 0px;
+  padding-left: 0px;
+  
+}
+input[type=submit]{
+  margin-left: 150px;
+  font-size: 100% !important;
+}
+
+input[type=reset]{
+  
+  font-size: 100% !important;
+}
+form label {
+  font-size: 90%;
+}
+.pos-bookingform h3 {
+  text-transform: uppercase;
+  font-size: 130%;
+  margin-bottom: 20px;
+}
+
  .basepic img {
    float: right;
    margin-right: 80px;
