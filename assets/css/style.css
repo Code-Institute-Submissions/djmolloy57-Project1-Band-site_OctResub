@@ -982,8 +982,9 @@ input[type=reset]{
   }
   .position-videolist
   {
-     padding-left: 100px;
+    padding-left: 100px;
   }
+ 
   .item-video{
      display: inline;
   }
@@ -1313,14 +1314,10 @@ input[type=reset]{
           display: inline-block;
           text-align: center;
           margin-right: 5px;
-
-          width: 105px !important;
-          
+          width: 105px !important;        
           height: 15px;
           margin-top: 10px;
-
-          padding-top: 5px;
-        
+          padding-top: 5px;      
           background-color: grey;
     }
     ul li > a{
@@ -1330,14 +1327,12 @@ input[type=reset]{
     .burger_menu{
         display: none;
     }
-
     .band_pic img{
         width: 45%;
         height: 45%;
         float: left;
         margin-left: 20px;
         margin-right: 0;
-
         margin-top: 70px;
      
     }
@@ -1352,7 +1347,6 @@ input[type=reset]{
         width: 380px;
         position: absolute;
         left: 470px;
-
         margin-top: 70px;
     }
     .bio h4{
@@ -1372,7 +1366,6 @@ input[type=reset]{
        padding-left: 440px;
        font-size: 20px;
    }
-
    .gig-wrapper h3{
       font-size: 110%;
    }
@@ -1383,22 +1376,30 @@ input[type=reset]{
      margin-left: 10px;
    }
    iframe {
-      width: 240px;
-      height: 200px;
+      width: 295px;
+      height: 220px;
   }
   .position-videolist
   {
-      margin-top: 70px;
-      padding-left: 80px;
-      width: 900px;
+      margin-top: 130px;
+      padding-left: 40px;
+      width: 950px;
+  }
+  .video-list{
+    width: 950px;
   }
   .item-video{
       display: inline;
   }
   .ToFindOut p {
-    padding-left: 120px;
-    margin-left: 120px;
-    font-size: 100%;
+    /*padding-left: 120px;
+    margin-left: 120px;*/
+
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 930px;
+
+    font-size: 115%;
   }
   .pos-bookingform {
     float: left;
@@ -1422,7 +1423,7 @@ input[type=reset]{
  }
  #page_footer{
   background-color: grey;
-}
+ }
 
 
 }
