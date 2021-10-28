@@ -648,10 +648,6 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   input[type=reset]{
     background-color: orange;
   }
-  .basepic{
-    display: none;
-  }
-
   #page_footer{
     background-color: grey;
     margin-bottom: 2px;
