@@ -384,7 +384,7 @@ form label {
   }
 }
 /* iphone 5 media query */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 {
   label.logo{
@@ -525,7 +525,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
     left: 0;
     bottom: 0;
   }
-}
+}*/
 
 /* media query for Samsumg S5/S20 to align Star rating section correctly */ 
 @media screen and (min-width: 360px){
@@ -587,9 +587,6 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   .bio span{
     font-size: 75%;
   }
-  .home_pg_testimonial{
-    display: none;
-  }
   .gig-wrapper {
     margin-left: 40px;
     padding-left: 0px;
@@ -635,7 +632,8 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   }
   .testpic {
     display: none;
-  }  
+  }
+
   .pos-bookingform{
     margin-top: 100px;
     width: 298px;
@@ -657,6 +655,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   .basepic{
     display: none;
   }
+
   #page_footer{
     background-color: grey;
     margin-bottom: 2px;
@@ -729,6 +728,10 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   .bio span{
     font-size: 75%;
   }
+  .home_pg_testimonial{
+    display: none;
+  }
+  
   .home_pg_testimonial{
     display: none;
   }
