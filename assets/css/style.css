@@ -384,149 +384,7 @@ form label {
     margin-top: -240px;
   }
 }
-/* iphone 5 media query */
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
-{
-  label.logo{
-    color: black;
-    font-size: 20px;
-    line-height: 30px;
-    padding-top: 10px;
-    font-weight: bold;
-    position: absolute;
-    top: 20px;
-    margin-bottom: 10px;
-    margin-left: 70px;    
-  }     
-  nav li {
-    background-color: grey;
-    width: 89%;
-    color: var(--white);
-    padding: 14px;
-    text-align:  center;
-    transition: background-color 0.2s;
-  }
-  nav ul {
-    margin-top: 60px; 
-    margin-bottom: 20px;          
-  }
-  .position_header_title {
-    width: 360px;
-  }   
-  .burger_menu {
-    margin: 0px 38px 35px 35px;
-  }
-  .band_pic{
-    margin-top: 70px;
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-  .band_pic img{
-    max-width: 80%;
-    max-height: 70%;
-  }
-  .bio {
-    padding-top: 0px;
-    margin-top: 0px;;
-    margin-left: 40px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-  }
-  .bio h4{
-    font-size: 85%;
-    margin-bottom: 10px;
-  }
-  .bio p {
-    font-size: 75%;
-    width: 130%;
-    padding-bottom: 0;
-  }
-  .bio span{
-    font-size: 75%;
-  }
-  .home_pg_testimonial{
-    display: none;
-  }
-  .gig-wrapper {
-    margin-left: 40px;
-    padding-left: 0px;
-    margin-top: 0px;
-  }
-  .gig-wrapper h3{
-    font-size: 70%;
-  }
-  .gig {
-    font-size: 120%;
-  }
-  .ToFindOut{
-    padding-left: 55px;
-  }
-  .ToFindOut p{
-    overflow-wrap: break-word;
-  }
-  .position-videolist{
-    margin-top: 100px;
-  }
-  .item-video{
-    padding-left: 5px;
-  }
-  iframe{
-    width: 300px;
-  }
-  .star-wrapper-pos{
-    margin-top: 100px;
-    margin-left: 25px; 
-    padding-bottom: 20px;
-  }
-  .test_title{
-    color: black;
-  }
-  .review_container_pos{
-    width: 325px;
-    height: 400px;
-  }
-  .user_review > p{
-    font-size: 75%;
-    overflow-wrap: break-word;
-  }
 
-  .testpic {
-    display: none;
-  }  
-  .pos-bookingform{
-    margin-top: 100px;
-    width: 260px;
-    height: 380px;
-    margin-left: 5px;
-  }
-  input[type=text],input[type=email],input[type=date],textarea{
-    width: 270px;
-  }
-  #textbox_id{
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-  input[type=submit]{
-    margin-left: 40px;
-  }
-  input[type=reset]{
-    background-color: orange;
-  }
-  .basepic{
-    display: none;
-  }
-  #page_footer{
-    background-color: grey;
-    margin-bottom: 2px;
-    max-height: 300px;
-    height: 30px !important;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-  }
-}*/
 
 /* media query for Samsumg S5/S20 to align Star rating section correctly */ 
 @media screen and (min-width: 360px){
@@ -1121,6 +979,9 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
   }
   .bio span{
     font-size: 110%;
+  }
+  .home_pg_testimonial{
+    display: none;
   }
   .gig-wrapper h3{
     font-size: 80% !important;
